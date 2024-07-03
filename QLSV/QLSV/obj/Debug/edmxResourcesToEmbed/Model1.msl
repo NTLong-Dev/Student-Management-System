@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Du_AnModelStoreContainer" CdmEntityContainer="Du_AnEntities">
+    <EntitySetMapping Name="diems">
+      <EntityTypeMapping TypeName="Du_AnModel.diem">
+        <MappingFragment StoreEntitySet="diem">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+          <ScalarProperty Name="tensv" ColumnName="tensv" />
+          <ScalarProperty Name="monhoc" ColumnName="monhoc" />
+          <ScalarProperty Name="lop" ColumnName="lop" />
+          <ScalarProperty Name="diem1" ColumnName="diem1" />
+          <ScalarProperty Name="diem2" ColumnName="diem2" />
+          <ScalarProperty Name="diem3" ColumnName="diem3" />
+          <ScalarProperty Name="diemtb" ColumnName="diemtb" />
+          <ScalarProperty Name="ketqua" ColumnName="ketqua" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="giangviens">
+      <EntityTypeMapping TypeName="Du_AnModel.giangvien">
+        <MappingFragment StoreEntitySet="giangvien">
+          <ScalarProperty Name="anh" ColumnName="anh" />
+          <ScalarProperty Name="magv" ColumnName="magv" />
+          <ScalarProperty Name="tengv" ColumnName="tengv" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="tenkhoa" ColumnName="tenkhoa" />
+          <ScalarProperty Name="monday" ColumnName="monday" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoc_phan">
+      <EntityTypeMapping TypeName="Du_AnModel.hoc_phan">
+        <MappingFragment StoreEntitySet="hoc_phan">
+          <ScalarProperty Name="mahp" ColumnName="mahp" />
+          <ScalarProperty Name="tenhp" ColumnName="tenhp" />
+          <ScalarProperty Name="namhoc" ColumnName="namhoc" />
+          <ScalarProperty Name="sotinchi" ColumnName="sotinchi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hocphis">
+      <EntityTypeMapping TypeName="Du_AnModel.hocphi">
+        <MappingFragment StoreEntitySet="hocphi">
+          <ScalarProperty Name="mathu" ColumnName="mathu" />
+          <ScalarProperty Name="kyhoc" ColumnName="kyhoc" />
+          <ScalarProperty Name="hocphi1" ColumnName="hocphi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khoas">
+      <EntityTypeMapping TypeName="Du_AnModel.khoa">
+        <MappingFragment StoreEntitySet="khoa">
+          <ScalarProperty Name="makhoa" ColumnName="makhoa" />
+          <ScalarProperty Name="tenkhoa" ColumnName="tenkhoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lops">
+      <EntityTypeMapping TypeName="Du_AnModel.lop">
+        <MappingFragment StoreEntitySet="lop">
+          <ScalarProperty Name="malop" ColumnName="malop" />
+          <ScalarProperty Name="tenlop" ColumnName="tenlop" />
+          <ScalarProperty Name="tenkhoa" ColumnName="tenkhoa" />
+          <ScalarProperty Name="khoahoc" ColumnName="khoahoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sinhviens">
+      <EntityTypeMapping TypeName="Du_AnModel.sinhvien">
+        <MappingFragment StoreEntitySet="sinhvien">
+          <ScalarProperty Name="anh" ColumnName="anh" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+          <ScalarProperty Name="tensv" ColumnName="tensv" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="tenlop" ColumnName="tenlop" />
+          <ScalarProperty Name="tenkhoa" ColumnName="tenkhoa" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Du_AnModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="diem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="masv" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="tensv" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="monhoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="lop" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="diem1" Type="Double" />
+    <Property Name="diem2" Type="Double" />
+    <Property Name="diem3" Type="Double" />
+    <Property Name="diemtb" Type="Double" />
+    <Property Name="ketqua" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="giangvien">
+    <Key>
+      <PropertyRef Name="magv" />
+    </Key>
+    <Property Name="anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="magv" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="tengv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sdt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="tenkhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="monday" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="diachi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="matkhau" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="hoc_phan">
+    <Key>
+      <PropertyRef Name="mahp" />
+    </Key>
+    <Property Name="mahp" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="tenhp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="namhoc" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="sotinchi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="hocphi">
+    <Key>
+      <PropertyRef Name="mathu" />
+    </Key>
+    <Property Name="mathu" Type="Int32" Nullable="false" />
+    <Property Name="kyhoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hocphi1" Type="Int32" />
+  </EntityType>
+  <EntityType Name="khoa">
+    <Key>
+      <PropertyRef Name="makhoa" />
+    </Key>
+    <Property Name="makhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="tenkhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="lop">
+    <Key>
+      <PropertyRef Name="malop" />
+    </Key>
+    <Property Name="malop" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="tenlop" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="tenkhoa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="khoahoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="masv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tensv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gioitinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="sdt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="diachi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tenlop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tenkhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="matkhau" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Du_AnEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="diems" EntityType="Self.diem" />
+    <EntitySet Name="giangviens" EntityType="Self.giangvien" />
+    <EntitySet Name="hoc_phan" EntityType="Self.hoc_phan" />
+    <EntitySet Name="hocphis" EntityType="Self.hocphi" />
+    <EntitySet Name="khoas" EntityType="Self.khoa" />
+    <EntitySet Name="lops" EntityType="Self.lop" />
+    <EntitySet Name="sinhviens" EntityType="Self.sinhvien" />
+  </EntityContainer>
+</Schema>

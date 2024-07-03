@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Du_AnDataSet3" targetNamespace="http://tempuri.org/Du_AnDataSet3.xsd" xmlns:mstns="http://tempuri.org/Du_AnDataSet3.xsd" xmlns="http://tempuri.org/Du_AnDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Du_AnConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Du_AnConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLSV.Properties.Settings.GlobalReference.Default.Du_AnConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="khoaTableAdapter" GeneratorDataComponentClassName="khoaTableAdapter" Name="khoa" UserDataComponentName="khoaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Du_AnConnectionString (Settings)" DbObjectName="Du_An.dbo.khoa" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT tenkhoa FROM dbo.khoa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tenkhoa" DataSetColumn="tenkhoa" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Du_AnDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Du_AnDataSet3" msprop:Generator_DataSetName="Du_AnDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="khoa" msprop:Generator_RowEvHandlerName="khoaRowChangeEventHandler" msprop:Generator_RowDeletedName="khoaRowDeleted" msprop:Generator_RowDeletingName="khoaRowDeleting" msprop:Generator_RowEvArgName="khoaRowChangeEvent" msprop:Generator_TablePropName="khoa" msprop:Generator_RowChangedName="khoaRowChanged" msprop:Generator_RowChangingName="khoaRowChanging" msprop:Generator_TableClassName="khoaDataTable" msprop:Generator_RowClassName="khoaRow" msprop:Generator_TableVarName="tablekhoa" msprop:Generator_UserTableName="khoa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tenkhoa" msprop:Generator_ColumnPropNameInRow="tenkhoa" msprop:Generator_ColumnPropNameInTable="tenkhoaColumn" msprop:Generator_ColumnVarNameInTable="columntenkhoa" msprop:Generator_UserColumnName="tenkhoa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

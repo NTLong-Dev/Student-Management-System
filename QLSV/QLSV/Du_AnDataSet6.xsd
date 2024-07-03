@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Du_AnDataSet6" targetNamespace="http://tempuri.org/Du_AnDataSet6.xsd" xmlns:mstns="http://tempuri.org/Du_AnDataSet6.xsd" xmlns="http://tempuri.org/Du_AnDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Du_AnConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Du_AnConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLSV.Properties.Settings.GlobalReference.Default.Du_AnConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="giangvienTableAdapter" GeneratorDataComponentClassName="giangvienTableAdapter" Name="giangvien" UserDataComponentName="giangvienTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Du_AnConnectionString (Settings)" DbObjectName="Du_An.dbo.giangvien" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ngaysinh FROM dbo.giangvien</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ngaysinh" DataSetColumn="ngaysinh" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Du_AnDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Du_AnDataSet6" msprop:Generator_DataSetName="Du_AnDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="giangvien" msprop:Generator_RowEvHandlerName="giangvienRowChangeEventHandler" msprop:Generator_RowDeletedName="giangvienRowDeleted" msprop:Generator_RowDeletingName="giangvienRowDeleting" msprop:Generator_RowEvArgName="giangvienRowChangeEvent" msprop:Generator_TablePropName="giangvien" msprop:Generator_RowChangedName="giangvienRowChanged" msprop:Generator_RowChangingName="giangvienRowChanging" msprop:Generator_TableClassName="giangvienDataTable" msprop:Generator_RowClassName="giangvienRow" msprop:Generator_TableVarName="tablegiangvien" msprop:Generator_UserTableName="giangvien">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ngaysinh" msprop:Generator_ColumnPropNameInRow="ngaysinh" msprop:Generator_ColumnPropNameInTable="ngaysinhColumn" msprop:Generator_ColumnVarNameInTable="columnngaysinh" msprop:Generator_UserColumnName="ngaysinh" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

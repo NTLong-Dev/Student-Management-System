@@ -1,0 +1,3015 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfComboBox.XForms</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.XForms.ComboBox.DropDownButtonSettings">
+            <summary>
+            The DropDownButtonSettings represents the class contains properties for drop-down button customizations.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.WidthProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Width"/> bindable property. This property can be used to customize the width of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HeightProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Height"/> bindable property. This property can be used to customize the height of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontIconProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontIcon"/> bindable property. This property can be used to change the font icon of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontFamily"/> bindable property. This property can be used to change the font family of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontSizeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for FontSize property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.ImageProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Image"/> bindable property. This property can be used to change the drop-down button image in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontColor"/> bindable property. This property can be used to change the font color of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.ViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.View"/> bindable property. This property can be used to customize the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.BackgroundColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.BackgroundColor"/> bindable property. This property can be used to change the background color of the drop-down button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HighlightedBackgroundColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontColor"/> bindable property. This property can be used to change the color of the highlighted text in the drop-down button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HighlightFontColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HighlightFontColor"/> bindable property. This property can be used to change the font color of the highlighted text in drop-down.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.DropDownButtonSettings.#ctor">
+            <summary>
+            Initializes a new instance of the DropDownButtonSettings class in the <see cref = "T:Syncfusion.XForms.ComboBox.SfComboBox" /> control.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.View">
+            <summary>
+             Gets or sets the value of View. This property can be used to customize the drop-down button in SfComboBox.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Width">
+            <summary>
+            Gets or sets the value of Width. This property can be used to customize the width of the drop-down button in SfComboBox.        /// </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Height">
+            <summary>
+             Gets or sets the value of Height. This property can be used to customize the height of the drop-down button in SfComboBox.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontIcon">
+            <summary>
+             Gets or sets the value of FontIcon. This property can be used to change the font icon of the drop-down button in SfComboBox.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontFamily">
+            <summary>
+             Gets or sets the value of FontFamily. This property can be used to change the font family of the drop-down button in SfComboBox.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontSize">
+            <summary>
+             Gets or sets the value of FontSize. This property can be used to change the font size of the drop-down button in SfComboBox.
+            </summary>
+            <value> The default value is 16.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Image">
+            <summary>
+             Gets or sets the value of Image. This property can be used to change the drop-down button image in SfComboBox.
+            <para> Using "dropdownbuttonimage" as image name will show the default image.</para>
+            </summary>
+            <value> The default value is dropdownbuttonimage.png.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.FontColor">
+            <summary>
+             Gets or sets the value of FontColor. This property can be used to change the font color of the drop-down button.
+            </summary>
+            <value> The default value is Black.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HighlightedBackgroundColor">
+            <summary>
+            Gets or sets the value of HighlightedBackgroundColor. This property can be used to change the color of the highlighted text in the drop-down button.
+            </summary>
+            <value> The default value is LightGray.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.BackgroundColor">
+            <summary>
+            Gets or sets the value of the BackgroundColor. This property can be used to change the background color of the drop-down button.
+            </summary>
+            <value> The default value is Transparent.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownButtonSettings.HighlightFontColor">
+            <summary>
+             Gets or sets the value of HighlightFontColor. This property can be used to change the font color of the highlighted text in drop-down.
+            </summary>
+            <value> The default value is Transparent.
+            </value>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Syncfusion#XForms#Themes#IThemeElement#OnControlThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke when theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newTheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.DropDownButtonSettings.Syncfusion#XForms#Themes#IThemeElement#OnCommonThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke at whenever common theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newTheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.DropDownButtonSettings.GetHeight">
+            <summary>
+            Gets the default token setting.
+            </summary>
+            <returns>The default token setting.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.DropDownButtonSettings.GetWidth">
+            <summary>
+            Gets the default token setting.
+            </summary>
+            <returns>The default token setting.</returns>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.DropDownCancelEventArgs">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.DropDownCancelEventArgs"/> class contains an argument of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.DropDownCancelEventArgs.IsItemSelected">
+            <summary>
+            Gets a value indicating whether value of the item selection.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.ComboBoxMode">
+            <summary>
+             Contains the values for the ComboBoxMode enumeration that about to filter the suggestion items based on user input.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.ComboBoxMode.Append">
+            <summary>
+            Appends the first matching string with the entered text input.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.ComboBoxMode.Suggest">
+            <summary>
+            Displays the suggestion in the dropdown.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.ComboBoxMode.SuggestAppend">
+            <summary>
+            Displays the suggestion in the dropdown along with appending the first matching string.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SuggestionBoxPlacement">
+            <summary>
+             Contains the values for the SuggestionBoxPlacement mode enumeration that determines the placement of the drop-down that holds the available suggestion items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionBoxPlacement.Bottom">
+            <summary>
+            Place dropdown at the Bottom of the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionBoxPlacement.Top">
+            <summary>
+            Place dropdown at the Top of the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionBoxPlacement.Auto">
+            <summary>
+            Place dropdown at the Top of the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionBoxPlacement.None">
+            <summary>
+            Restrict the dropDown placement
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SuggestionMode">
+            <summary>
+              Contains the values for the SuggestionMode enumeration that determines the suggestion way represent the suggested items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.StartsWith">
+            <summary>
+            Filters the list of suggestions based on starting text of the items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.StartsWithCaseSensitive">
+            <summary>
+            Filters the list of suggestions based on starting text of the items with case sensitive.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.Contains">
+            <summary>
+            Filters the list of suggestions from items that contains the user input.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.ContainsWithCaseSensitive">
+             <summary>
+            Filters the list of suggestions from items that contains the user input with case sensitive.
+             </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.Equals">
+            <summary>
+            Filters the list of suggestion from items that match exact text with user input
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.EqualsWithCaseSensitive">
+             <summary>
+            Filters the list of suggestion from items that match exact text with user input with case sensitive
+             </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.EndsWith">
+            <summary>
+            Filters the list of suggestions based on end text of the items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.EndsWithCaseSensitive">
+            <summary>
+            Filters the list of suggestions based on end text of the items with case sensitive.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SuggestionMode.Custom">
+            <summary>
+            Filters the list of suggestions based on custom items
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.MultiSelectMode">
+            <summary>
+            Contains values for the MultiSelectMode enumeration that determines the multi-selection way to select multiple items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.MultiSelectMode.Token">
+            <summary>
+            The token.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.MultiSelectMode.Delimiter">
+            <summary>
+            The delimiter.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.MultiSelectMode.None">
+            <summary>
+            The none.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SelectionType">
+            <summary>
+            Contains values for the Selection Type.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SelectionType.Default">
+            <summary>
+            The Selection Type is Auto which is the default.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SelectionType.OnTap">
+            <summary>
+            The Selection Type is OnTap which is when the user taps the selection from the DropDown.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.TokensWrapMode">
+            <summary>
+            Contains the values for the TokensWrapMode enumeration that determines the display way to the selected items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokensWrapMode.None">
+            <summary>
+            The none.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokensWrapMode.Wrap">
+            <summary>
+            The wrap.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.OccurrenceMode">
+            <summary>
+            Contains values for the OccurrenceMode enumeration that indicates whether to highlight the first character or all same character in text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.OccurrenceMode.None">
+            <summary>
+            The none.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.OccurrenceMode.FirstOccurrence">
+            <summary>
+            The first occurrence.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.OccurrenceMode.MultipleOccurrence">
+            <summary>
+            The multiple occurrence.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.DeleteButtonPlacement">
+            <summary>
+            Contains values for the DeleteButtonPlacement enumeration that determines the position of the delete button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DeleteButtonPlacement.Right">
+            <summary>
+            The right position alignment of delete button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.DeleteButtonPlacement.Left">
+            <summary>
+            The left position alignment of delete button.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.FilterCollectionChangedEventArgs">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.FilterCollectionChangedEventArgs"/> class contains an argument of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.FilterCollectionChangedEventArgs.Value">
+            <summary>
+            Gets a value in the <see cref="T:Syncfusion.XForms.ComboBox.FilterCollectionChangedEventArgs"/> class.
+            </summary>
+            <value>The value.</value>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.FocusChangedEventArgs">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.FocusChangedEventArgs"/> class contains an argument of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.FocusChangedEventArgs.HasFocus">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Syncfusion.XForms.ComboBox.FocusChangedEventArgs"/> has focus.
+            </summary>
+            <value><c>true</c> if has focus; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.IClear">
+            <summary>
+            Represents the IClear interface.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.IClear.Clear(Syncfusion.XForms.ComboBox.SfComboBox)">
+            <summary>
+            Represents to Clear the specified text and selected items
+            </summary>
+            <param name="formsAutoComplete">Forms auto complete.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.IClear.Clear">
+            <summary>
+            Represents to Clear the text and selected items
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.IFocus">
+            <summary>
+            Represents the Focus interface.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.IFocus.Focus(Syncfusion.XForms.ComboBox.SfComboBox)">
+            <summary>
+            Focus the specified formsAutoComplete.
+            </summary>
+            <param name="formsAutoComplete">Forms auto complete.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.IFocus.Focus">
+            <summary>
+            Focus this instance.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.ILoadMoreItems">
+            <summary>
+            Represents the LoadMore interface
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.ILoadMoreItems.LoadMoreItems(Syncfusion.XForms.ComboBox.SfComboBox)">
+            <summary>
+            Update the dropdown based on specified maximum suggestion property
+            </summary>
+            <param name="formsAutoComplete">Forms auto complete.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.ILoadMoreItems.LoadMoreItems">
+            <summary>
+            Update the dropdown based on maximum suggestion property
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.ILoadMoreItems.LoadMoreItems(Syncfusion.XForms.ComboBox.SfComboBox,System.Int32)">
+            <summary>
+            Loads the more items.
+            </summary>
+            <param name="formsAutoComplete">Forms auto complete.</param>
+            <param name="maximumSuggestions">Maximum suggestions.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.ICursorPosition">
+            <summary>
+            Represents the CusrsorPosition interface
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.ICursorPosition.SetCursorPosition(Syncfusion.XForms.ComboBox.SfComboBox,System.Int32)">
+            <summary>
+            Sets the provided cursor position to specified instance.
+            </summary>
+            <param name="formsAutoComplete">Forms auto complete.</param>
+            <param name="position">Position.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.ICursorPosition.SetCursorPosition(System.Int32)">
+            <summary>
+            Sets the provided cursor position.
+            </summary>
+            <param name="position">Position.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SelectionChangedEventArgs">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.SelectionChangedEventArgs"/> class contains an arguments of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SelectionChangedEventArgs.Value">
+            <summary>
+            Gets the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Text"/> of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SelectionChangingEventArgs">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.SelectionChangingEventArgs"/> class contains an argument of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SelectionChangingEventArgs.Value">
+            <summary>
+            Gets the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Text"/> of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox">
+            <summary>
+            Represents a custom control that allows users choose one or more suggestons from drop-down. It additionally offers filtering modes and drop-down item customization.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextFontAttributesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextColor"/> bindable property. This property can be used to set the font attributes of the MatchingText in the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownHeaderViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownHeaderView"/> bindable property. This property can be used to change the visiblity of drop-down header view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFooterViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownHeaderView"/> bindable property. This property can be used to customize the header of drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFooterViewHeightProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownHeaderView"/> bindable property. This property can be used to customize the height of footer in drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreTemplate"/> bindable property. This property can be used to change the LoadMoreTemplate.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownFooterViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownFooterView"/> bindable property. This property can be used to customize the footer of drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownCornerRadiusProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownCornerRadius"/> bindable property. This property can be used to show the covered dropDown.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBackgroundColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBackgroundColor"/> bindable property. This property can be used to set the background color of drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextColor"/> bindable property. This property can be used to change the text color of the highlighted character.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.MaximumSuggestionProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.MaximumSuggestion"/> bindable property. This property indicates the minimum number of characters to be typed for the drop-down to open.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.EnableSelectionIndicatorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.EnableSelectionIndicator"/> bindable property. It indicates whether the selection indicator is shown or not in drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorTextProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorText"/> bindable property. This property can be used to change the indicator's text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamily"/> bindable property. This property can be used to change the fontfamily of indicator.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorTextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamily"/> bindable property. This property can be used to change the color of the indicator's text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorTextSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamily"/> bindable property. Using property, you can change the size of indicator's text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ItemPaddingProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamily"/> bindable property. This property can be used to change padding between items in SfAutoComplete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.FilteredItemsProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.FilteredItems"/> bindable property. This property is used to filter a particular set of items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DelimiterProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.FilteredItems"/> bindable property. It is a sequence of one or more characters used to specify the boundary between separate and independent regions in data streams. It only work for Android and iOS platforms.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsFocusedProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IsFocused"/> bindable property. It indicates whether the dropDown has to be shown are not in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ShowClearButtonProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowClearButton"/> bindable property. This property indicates whether the clear button is visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsSelectedItemsVisibleInDropDownProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IsSelectedItemsVisibleInDropDown"/> bindable property. This property indicates whether selected item is visible or not in drop down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ClearButtonColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ClearButtonColor"/> bindable property. This property can be used to change the color of the clear button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IgnoreDiacriticProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IgnoreDiacritic"/> bindable property. This property indicates whether the diacritic is enabled or not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ShowBorderProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowBorder"/> bindable property. This property indicates whether the border is visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreTextProperty">
+            <summary>
+            Identifies the <see cref="!:LoadMore"/> bindable property. This property can be used to change the LoadMoreText.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundTextProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundText"/> bindable property. This property can be used to change the NoResultsFoundText.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundTextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundTextColor"/> bindable property. This property can be used to change the NoResultsFoundTextColor.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontSize"/> bindable property. This property can be used to change the NoResultsFoundFontSize.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontFamily"/> bindable property. This property can be used to change the font family for the no results found text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontAttributesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontAttributes"/> bindable property. This property can be used to change the font attributes for the no results found text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.WatermarkProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Watermark"/> bindable property. It is used to display the hint text when the input field is empty and unfocused.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.MinimumPrefixCharactersProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.MinimumPrefixCharacters"/> bindable property. It determines the minimum number of characters to be typed for the drop-down to open.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ShowSuggestionsOnFocusProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowSuggestionsOnFocus"/> bindable property. It indicates whether the complete suggestion list should be displayed when an empty input field is focused.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsDropDownOpenProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IsDropDownOpen"/> bindable property. It indicates whether the dropDown has to be shown are not in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemHeightProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemHeight"/> bindable property. This property can be used to change the height of drop-down that holds available suggestion items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TextProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Text"/> bindable property. This property can be used to change the text of the input field in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.MaximumDropDownHeightProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemHeight"/> bindable property. This property can be used to give the maximum height of drop-down that holds available suggestion items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextSize"/> bindable property. This property can be used to change the text size of available suggestion items in the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TextSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.TextSize"/> bindable property. This property can be used to change the text size of the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.PopupDelayProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.PopupDelay"/> bindable property. This property can be used to give the delay(milliseconds) to open the suggestion pop-up.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SearchDelayProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SearchDelay"/> bindable property. This property can be used to give the delay(milliseconds) to before search algorithm.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.TextColor"/> bindable property. This property can be used to change the color of text in the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.WatermarkColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.WatermarkColor"/> bindable property. This property can be used to change the color of the hint text in the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.BorderColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.BorderColor"/> bindable property. This property can be used to change the color of border of the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBorderColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBorderColor"/> bindable property. This property can be used to change the color of border of the drop down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxSourceProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxSource"/> bindable property. You can give the ComboBoxSource in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ItemTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ItemTemplate"/> bindable property. It is an instance of the template class that defines the visual structure of a suggestion item.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextColor"/> bindable property. This property can be used to change text color of suggestion items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DisplayMemberPathProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DisplayMemberPath"/> bindable property. It is a display member path used to search suggestions.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValuePathProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValuePath"/> bindable property. It is a selected value path, using which SelectedValue is set.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DataSourceProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DataSource"/> bindable property. It is responsible for populating this view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownButtonSettingsProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownButtonSettings"/> bindable property. This property can be used to customize the drop-down button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValueProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValue"/> bindable property. This property can be used to select a particular item in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndexProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SelectedIndex property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndicesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndex"/> bindable property. This property can be used to get the selected indexes of selected items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFontAttributesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFontAttributes"/> bindable property. This property is used to give the font attributes of available suggestion items in the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontAttributesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontAttributes"/> bindable property. By This property can be used to change the font attributes of available suggestion items in the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.FontAttributesProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.FontAttributes"/> bindable property. By This property can be used to change the font attributes for the text in the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.FontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.FontFamily"/> bindable property. This property can be used to change the font family for the text in the input field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontFamily"/> bindable property. It is used to change the font family of available suggestion items in the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ItemsSourceProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ItemsSource"/> bindable property. It can be populated as suggestion items and rendered at run-time based on the template provided.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsEditableModeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.IsEditableMode"/> bindable property. It indicates whether the text is editable or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.AllowFilteringProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.AllowFiltering"/> bindable property. It indicates whether the filtering is enabled or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.EnableAutoSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.EnableAutoSize"/> bindable property. This property indicates whether the clear button is visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectionTypeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectionType"/> bindable property. This property indicates whether the Selection Type is Default or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.CustomViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.CustomView"/> bindable property. This property can be used to customize the view in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedItemProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndex"/> bindable property. This property can be used to select a particular item in SfAutoComplete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectedDropDownItemColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedDropDownItemColor"/> bindable property. This property can be used to change the selected item color in drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownWidthProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownWidth"/> bindable property. This property can be used to customize the width of the drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxModeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxMode"/> bindable property. This property can be used to change the suggestion mode in <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionModeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionMode"/> bindable property. This property can be used to change the suggestion mode in <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionBoxPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionBoxPlacement"/> bindable property. This property can be used to change the position of suggestion box in <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.MultiSelectModeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.MultiSelectMode"/> bindable property. This property can be used to change the multi-selection mode to delimeter, token, or none.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TokensWrapModeProperty">
+            <summary>
+            Identifies the <see cref="F:Syncfusion.XForms.ComboBox.SfComboBox.TokensWrapModeProperty"/> bindable property. This property can be used to change the value to either wrap or none.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TokenSettingsProperty">
+            <summary>
+            Identifies the <see cref="F:Syncfusion.XForms.ComboBox.SfComboBox.TokenSettingsProperty"/> bindable property. By This property can be used to display hint text when the input field is empty and unfocused.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.KeyboardProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Keyboard"/> bindable property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ImageMemberPathProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Keyboard"/> bindable property. This property is used to give the member path to an image in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderViewProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderView"/> bindable property. This property can be used to customize the header of drop-down.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderViewHeightProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderViewHeight"/> bindable property. This property can be used to customize the height of the drop-down header view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TextHighlightModeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.TextHighlightMode"/> bindable property. This property can be used to highlight whether the first character or all same character in text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.SelectAllOnFocusProperty">
+            <summary>
+            Identifies the SelectAllOnFocus property. It is used to select value of text box when text box is on the focus state <see cref="T:Xamarin.Forms.BindableProperty"/>.
+            </summary>
+            <remarks>This <see cref="T:Xamarin.Forms.BindableProperty"/> is read-only.</remarks>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.ClearButtonBackgroundColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownMargin property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TokenTopPaddingProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for TokenTopPadding property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsSuggestionForTextInputLayoutProperty">
+            <summary>
+            Identifies the <see cref="!:IsSuggestion"/> bindable property. This property indicates whether the pop up open or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.CloseButtonTopPaddingProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for CloseButtonTopPadding property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsTextInputLayoutProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsTextInputLayout property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.IsTextInputLayoutOutLineModeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsTextInputLayout property is outlined mode or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBorderSizeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownBorderSize property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TokenDeleteButtonCrossColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for TokenDeleteButtonCrossColor property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.OpenComboBoxDropDownProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for OpenComboBoxDropDown property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.DropDownMarginProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownMargin property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.FocusedBorderColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownMargin property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.TextInputLayout">
+            <summary>
+            Represents the text input layout object.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForDropDownBackgroundColor">
+            <summary>
+            Represents the style was applied or not for DropDownBackgroundColor.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForDropDownItemHeight">
+            <summary>
+            Represents the style was applied or not for DropDownItemHeight.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForDropDownWidth">
+            <summary>
+            Represents the style was applied or not for DropDownWidth.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.hasTextInputLayoutWidth">
+            <summary>
+            Represents the width was applied or not for text input layout.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForItemPadding">
+            <summary>
+            Represents the style was applied or not for ItemPadding.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForDropDownTextSize">
+            <summary>
+            Represents the style was applied or not for DropDownTextSize.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForDropDownBorderColor">
+            <summary>
+            Represents the style was applied or not for DropDownBorderColor.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForSelectedDropDownItemColor">
+            <summary>
+            Represents the style was applied or not for SelectedDropDownItemColor.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isStyleAppliedForClearButtonColor">
+            <summary>
+            Represents the style was applied or not for clear button color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.isTextInputLayoutClearButtonColor">
+            <summary>
+            Represents the style was applied or not for text input color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.propertiesChanged">
+            <summary>
+            Properties changed collection
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.tableCollection">
+            <summary>
+            Represents the the data table item source.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBox.dataTableColumnIndex">
+            <summary>
+            Represents the index used for the data table 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionPredicate`1">
+            <summary>
+            Predicate to filter suggestion in custom mode in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.ValueChangedEventHandler">
+            <summary>
+            It handles the ValueChanged event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The ValueChangedEventArgs for the event.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.SelectionChangedEventHandler">
+            <summary>
+            It handles the SelectionChanged event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The SelectionChangedEventArgs for the event.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.SelectionChangingEventHandler">
+            <summary>
+            It handles the SelectionChanging event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The SelectionChangingEventArgs for the event.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.CompletedEventHandler">
+            <summary>
+            It handles the Completed event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The arguments for the event.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.FocusEventHandler">
+            <summary>
+            It handles the FocusChanged event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The FocusChangedEventArgs for the event.</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.FilterCollectionChangedEventHandler">
+            <summary>
+            It handles the FilterCollectionChanged event in text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender"></param>
+            <param name="e">The FilterCollectionChangedEventArgs</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.DropDownOpenEventHandler">
+            <summary>
+            It handles the DropDownOpen event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBox.DropDownClosedEventHandler">
+            <summary>
+            It handles the FocusChanged event in the text of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.ValueChanged">
+            <summary>
+            Event handler of the valuechanged event in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.SelectionChanged">
+            <summary>
+            This event occurs when users select an item from unselected items in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.SelectionChanging">
+            <summary>
+            This event occurs when users select an item from unselected items in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.Completed">
+            <summary>
+            This event occurs when users click the Done button in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.FocusChanged">
+            <summary>
+            The FocusChanged event is hooked when focus of the text is changed in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.FilterCollectionChanged">
+            <summary>
+            The FilterCollectionChanged event occurs when filter an item in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.DropDownOpen">
+            <summary>
+            The DropDownOpenEventHandler event occurs when the drop-down is opened in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.DropDownClosing">
+            <summary>
+            The DropDownClosingEventHandler event occurs when the drop-down is being closed in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.DropDownClosed">
+            <summary>
+            The DropDownOpenEventHandler event occurs when the drop-down is closed in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreButtonTapped">
+            <summary>
+            The LoadMoreButtonTappedEventHandler event occurs when the load more button is tapped in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.ComboBox.SfComboBox.Tapped">
+            <summary>
+            The event occurs when the control is tapped.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Filter">
+            <summary>
+            Gets or sets the Filter for Custom mode.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxMode">
+            <summary>
+            Gets or sets <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxMode"/> that displays suggestions in several ways.
+            </summary>
+            <value>
+            The default value is <see cref="!:Syncfusion.XForms.ComboBox.SfComboBox.Suggest"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionMode">
+            <summary>
+            Gets or sets <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionMode"/> to filter suggestions.
+            </summary>
+            <value>The default value is <see
+            cref="!:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionMode.StartsWith"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionBoxPlacement">
+            <summary>
+            Gets or sets <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionBoxPlacement"/> to postion the suggestion box.
+            </summary>
+            <value> The default value is <see cref="!:Syncfusion.XForms.ComboBox.SfComboBox.SuggestionBoxPlacement.Bottom"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.MultiSelectMode">
+            <summary>
+            Gets or sets MultiSelectMode. This property can be used to change the multi-selection mode to delimeter, token, or none.
+            </summary>
+            <value>The default multi-select mode is none.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TokensWrapMode">
+            <summary>
+            Gets or sets the value of TokensWrapMode. This property can be used to change the value to either wrap or none.
+            </summary>
+            <value>The default tokens wrap mode is none.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TokenSettings">
+            <summary>
+            Gets or sets the value of TokenSettings. This property can be used to display the hint text when the input field is empty and unfocused.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Keyboard">
+            <summary>
+            Gets or sets the value of the keyboard.
+            </summary>
+            <value>The keyboard.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ImageMemberPath">
+            <summary>
+            Gets or sets the value to display hint text when the input field is empty and unfocused.
+            </summary>
+            <value> The default value is string.Empty.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderView">
+            <summary>
+            Gets or sets the value of the DropDownHeaderView. This property can be used to customize the header of drop-down.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownHeaderViewHeight">
+            <summary>
+            Gets or sets the value of DropDownHeaderViewHeight. This property can be used to customize the height of the drop-down header view.
+            </summary>
+            <value> The default value is 30.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownHeaderView">
+            <summary>
+            Gets or sets a value that indicates whether the drop-down header view is shown or not in SfAutoComplete.
+            </summary>
+            <value> The default value is true.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFooterView">
+            <summary>
+            Gets or sets the value of DropDownFooterView. This property can be used to customize the footer of drop-down.
+            </summary>
+            <value> The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreTemplate">
+            <summary>
+            Gets or sets the value of LoadMoreTemplate. This property can be used to set the LoadMoreTemplate.
+            </summary>
+            <value>The load more text.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFooterViewHeight">
+            <summary>
+            Gets or sets a value that indicates whether the drop-down footer view is shown or not in SfComboBox.
+            </summary>
+            <value> The default value is true.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowDropDownFooterView">
+            <summary>
+            Gets or sets a value that indicating whether the drop down footer view is shown or not in SfComboBox.
+            </summary>
+            <value> The default value is true.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownCornerRadius">
+            <summary>
+            Gets or sets the value of DropDownCornerRadius. This property can be used to show the covered dropDown.
+            </summary>
+            <value>The default value is 5</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBackgroundColor">
+            <summary>
+            Gets or sets the value of DropDownBackgroundColor. This property can be used to set the background color of drop-down.
+            </summary>
+            <value>The color of the drop down background is white.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TextHighlightMode">
+            <summary>
+            Gets or sets the value of TextHighlightMode. This property can be used to highlight whether the first character or all same character in text.
+            </summary>
+            <value>The default text highlight mode is none.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectAllOnFocus">
+            <summary>
+            Gets or sets a value indicating whether the text of text box is select all in focus state or not.
+            </summary>
+            <value>default value is false.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextColor">
+            <summary>
+            Gets or sets the value of the HighlightedTextColor. This property can be used to change the text color of the highlighted character.
+            </summary>
+            <value>The default value is Blue</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.HighlightedTextFontAttributes">
+            <summary>
+            Gets or sets the value of HighlightedTextFontAttributes. This property can be used to set the font attributes of the MatchingText in the drop-down.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.MaximumSuggestion">
+            <summary>
+            Gets or sets the vaule of MaximumSuggestion. This property indicates the minimum number of characters to be typed for the drop-down to open.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.EnableSelectionIndicator">
+            <summary>
+            Gets or sets a value indicating whether the selection indicator is shown or not in drop-down of SfComboBox.
+            </summary>
+            <value> The default value is false.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorText">
+            <summary>
+            Gets or sets the value of the IndicatorText. This property can be used to change the indicator's text.
+            </summary>
+            <value>The Indicator Text.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorFontFamily">
+            <summary>
+            Gets or sets the value of IndicatorFontFamily. This property can be used to change the fontfamily of the indicator.
+            </summary>
+            <value>The Indicator Family .</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorTextColor">
+            <summary>
+            Gets or sets the value of IndicatorTextColor. This property can be used to change the color of the indicator's text.
+            </summary>
+            <value>The color of the IndicatorText is blue.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IndicatorTextSize">
+            <summary>
+            Gets or sets the value of the IndicatorTextSize. Using property, you can change the size of indicator's text.
+            </summary>
+            <value> The default value is 20.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ItemPadding">
+            <summary>
+            Gets or sets the value of ItemPadding. This property can be used to change padding between items in SfAutoComplete.
+            </summary>
+            <value> The default value is (10,0,0,0).
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.FilteredItems">
+            <summary>
+            Gets or sets the FilteredItems of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Delimiter">
+            <summary>
+            Gets or sets the value of the Delimiter. It is a sequence of one or more characters used to specify the boundary between separate and independent regions in data streams. It only work for Android and iOS platforms.
+            </summary>
+            <value>
+            The default value is ",".
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsFocused">
+            <summary>
+            Gets or sets a value that indicates whether the dropDown has to be shown are not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowClearButton">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Syncfusion.SfComboBox.XForms.SfComboBox"/> clear button is visible.
+            </summary>
+            <value><c>true</c> if is clear button visible; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsSelectedItemsVisibleInDropDown">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Syncfusion.SfComboBox.XForms.SfComboBox"/> selected item is visible in drop-down.
+            </summary>
+            <value><c>true</c> if is selected item visible in drop down; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ClearButtonColor">
+            <summary>
+            Gets or sets the value of color. This property can be used to change the color of the clear button.
+            </summary>
+            <value>The default value is Gray</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IgnoreDiacritic">
+            <summary>
+            Gets or sets a value that indicates whether the diacritic is enabled or not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowBorder">
+            <summary>
+            Gets or sets a value that indicates whether the border is visible or not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value><c>true</c> if show border; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreText">
+            <summary>
+            Gets or sets the value of LoadMoreText. This property can be used to change the LoadMoreText.
+            </summary>
+            <value>The load more text.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundText">
+            <summary>
+            Gets or sets the value of the NoResultsFoundText. This property can be used to change the NoResultsFoundText.
+            </summary>
+            <value>The no results found text.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontSize">
+            <summary>
+            Gets or sets the value of NoResultsFoundFontSize. This property can be used to change the NoResultsFoundFontSize.
+            </summary>
+            <value>The no results found font size.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontFamily">
+            <summary>
+            Gets or sets the value of NoResultsFoundFontFamily. This property can be used to change the font family for the no results found text.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundFontAttributes">
+            <summary>
+            Gets or sets the value of NoResultsFoundFontAttributes. This property can be used to change the font attributes for the no results found text.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Watermark">
+            <summary>
+            Gets or sets the value of Watermark. It is used to display the hint text when the input field is empty and unfocused.
+            </summary>
+            <value> The default value is string.Empty.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.MinimumPrefixCharacters">
+            <summary>
+            Gets or sets the value of MinimumPrefixCharacters. It determines minimum number of characters to be typed for the drop-down to open.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ShowSuggestionsOnFocus">
+            <summary>
+            Gets or sets a value that indicates whether the complete suggestion list should be displayed when an empty input field is focused.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsDropDownOpen">
+            <summary>
+            Gets or sets a value that indicates whether the dropDown has to be shown are not in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemHeight">
+            <summary>
+            Gets or sets the value of DropDownItemHeight. By This property can be used to change the height of drop-down that holds available suggestion items.
+            </summary>
+            <value>The default value is 30</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NoResultsFoundTextColor">
+            <summary>
+            Gets or sets the value of NoResultsFoundTextColor. This property can be used to change the NoResultsFoundTextColor.
+            </summary>
+            <value>The no results found text color.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Text">
+            <summary>
+            Gets or sets the value of Text. This property can be used to change the text of the input field in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+            <value>The default value is string.Empty</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.MaximumDropDownHeight">
+            <summary>
+            Gets or sets the value of MaximumDropDownHeight. This property can be used to give the maximum height of drop-down that holds available suggestion items.
+            </summary>
+            <value>The default value is 400</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextSize">
+            <summary>
+            Gets or sets the value of DropDownTextSize. This property can be used to change the text size of the available suggestion items in the drop-down.
+            </summary>
+            <value>The default value is 18</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TextSize">
+            <summary>
+            Gets or sets the value of TextSize. This property can be used to change the text size of the input field.
+            </summary>
+            <value>The default value is 18</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.PopupDelay">
+            <summary>
+            Gets or sets the value of PopupDelay. This property can be used to give the delay(milliseconds) to open the suggestion pop-up.
+            </summary>
+            <value>The default value is 100 milliseconds</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SearchDelay">
+            <summary>
+             Gets or sets the value of the SearchDelay. This property can be used to give the delay(milliseconds) before search algorithm.
+            </summary>
+            <value>The default value is 0 milliseconds</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TextColor">
+            <summary>
+            Gets or sets the value of color. This property can be used to change the color of text in the input field.
+            </summary>
+            <value>The default value is Black</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.WatermarkColor">
+            <summary>
+            Gets or sets the value of WatermarkColor. This property can be used to change the color of the hint text in the input field.
+            </summary>
+            <value>The default value is Gray</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.BorderColor">
+            <summary>
+            Gets or sets the value of the Border color. This property can be used to change the color of border of the input field.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBorderColor">
+            <summary>
+            Gets or sets the value of the drop down border color. This property can be used to change the color of border of the drop down.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ComboBoxSource">
+            <summary>
+            Gets or sets the value of ComboBoxSource. You can give AutocompleteSource in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ItemTemplate">
+            <summary>
+            Gets or sets an instance of the Template class that defines the visual structure of a suggestion item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownTextColor">
+            <summary>
+            Gets or sets the value of DropDownTextColor. This property can be used to change text color of suggestion items.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DisplayMemberPath">
+            <summary>
+            Gets or sets the value of the DisplayMemberPath. It is a display member path used to search suggestions.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValuePath">
+             <summary>
+            Gets or sets the selected value path, using which SelectedValue is set in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+             </summary>
+             <value>
+             The default value is null.
+             </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DataSource">
+            <summary>
+            Gets or sets the DataSource of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownButtonSettings">
+            <summary>
+            Gets or sets the value of DropDownButtonSettings. This property can be used to customize the drop-down button.
+            </summary>
+            <value> The default value is string.Empty.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedValue">
+            <summary>
+            Gets or sets the value of SelectedValue. This property can be used to select a particular item in SfComboBox.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndex">
+            <summary>
+            Gets or sets the value of SelectedIndex. This property can be used to select a particular index of item in SfAutoComplete.
+            </summary>
+            <value>
+            The default value is -1.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedIndices">
+            <summary>
+            Gets or sets the value of SelectedIndices. This property can be used to get the selected indexes of selected items.
+            </summary>
+            <value>
+            The default value is -1.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedItem">
+            <summary>
+            Gets or sets the value of the SelectedItem. This property can be used to select a particular item in SfAutoComplete.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownFontAttributes">
+            <summary>
+            Gets or sets the value of DropDownFontAttributes. This property is used to give the font attributes of available suggestion items in the drop-down.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontAttributes">
+            <summary>
+            Gets or sets the font attributes of available suggestion items in the drop-down.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.FontAttributes">
+            <summary>
+            Gets or sets the value of the FontAttributes. By This property can be used to change the font attributes for the text in the input field.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.FontFamily">
+            <summary>
+            Gets or sets the value of the FontFamily. This property can be used to change the font family for the text in the input field.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownItemFontFamily">
+            <summary>
+            Gets or sets the value of DropDownItemFontFamily. It is used to change the font family of available suggestion items in the drop-down.
+            </summary>
+            <value>
+            The default value is <see cref="F:Xamarin.Forms.FontAttributes.None"/>
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ItemsSource">
+            <summary>
+            Gets or sets a collection of items that can be populated as suggestion items and rendered at run-time based on the template provided.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectionType">
+            <summary>
+            Gets or sets a Selection type.
+            </summary>
+            /// <value>
+            The default value is AutoSelection type.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsEditableMode">
+            <summary>
+            Gets or sets a value that indicates whether the dropDown has to be shown are not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.AllowFiltering">
+            <summary>
+            Gets or sets a value that indicates whether the filtering is enabled or not in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.EnableAutoSize">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Syncfusion.SfComboBox.XForms.SfComboBox"/> clear button is visible.
+            </summary>
+            <value><c>true</c> if is auto sizing enable; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.CustomView">
+            <summary>
+            Gets or sets the value of the CustomView. This property can be used to customize the view in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+            <value>The default value is null</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.SelectedDropDownItemColor">
+            <summary>
+            Gets or sets the value of SelectedDropDownItemColor. By This property can be used to change the selected item color in drop-down.
+            </summary>
+            <value> The default value is Color.FromHex("#e4e4e4")
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownWidth">
+            <summary>
+            Gets or sets the value of the DropDownWidth. This property can be used to customize the width of the drop-down.
+            </summary>
+            <value> The default value is -1.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownMargin">
+            <summary>
+            Gets or sets the margin of the drop down
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.FocusedBorderColor">
+            <summary>
+            Gets or sets the color of the focused border
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.ClearButtonBackgroundColor">
+            <summary>
+            Gets or sets the color of the focused border
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TokenTopPadding">
+            <summary>
+            Gets or sets the padding of the token
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsSuggestionForTextInputLayout">
+            <summary>
+            Gets or sets the value indicates whether the pop up open or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.CloseButtonTopPadding">
+            <summary>
+            Gets or sets the padding of the token
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsTextInputLayout">
+            <summary>
+            Gets or sets the parent is text input layout
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsTextInputLayoutOutLineMode">
+            <summary>
+            Gets or sets the parent is text input layout is outline mode or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.DropDownBorderSize">
+            <summary>
+            Gets or sets the size of the drop down border
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.TokenDeleteButtonCrossColor">
+            <summary>
+            Gets or sets the color of the token delete  button
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.OpenComboBoxDropDown">
+            <summary>
+            Open the DropDown without any changes
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsCleared">
+            <summary>
+            Gets or sets a value indicating whether indicates whether Clear method is called after control is removed from the parent.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsDetached">
+            <summary>
+            Gets or sets a value indicating whether indicates whether Clear method is called after control is removed from the parent.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.NativeObject">
+            <summary>
+            Instance of native control.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.IsTextInputLayoutDropDownIconClicked">
+            <summary>
+            Gets or sets a value indicating whether indicates whether the dropdown icon clicked inside the text input layout or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.PropertiesChanged">
+            <summary>
+            Gets or sets the list of property names.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Clear">
+            <summary>
+            The clear method is used to remove all items in the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Focus">
+            <summary>
+            Focus is used to focus an item in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreItems">
+            <summary>
+            Method for load more items in Focus is used to focus an item in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.LoadMoreItems(System.Int32)">
+            <summary>
+            Method for load more items in Focus is used to focus an item in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.SetCursorPosition(System.Int32)">
+            <summary>
+            Method to set the position of the cursor in the <see cref="!:Syncfusion.SfAutoComplete.XForms.SfAutoComplete"/> control.
+            </summary>
+            <param name="position">Position.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#Themes#IThemeElement#OnControlThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke when theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newTheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#Themes#IThemeElement#OnCommonThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke at whenever common theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newtheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateDropDownState(System.Boolean)">
+            <summary>
+            Identify the drop down icon clicked.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateClearfocused(System.Boolean)">
+            <summary>
+            Update the value .
+            </summary>
+            <param name="isClearClicked"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateDropDownViewWidth(System.Double)">
+            <summary>
+            Update drop down width.
+            </summary>
+            <param name="width">Width.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateDropDownViewMargin(Xamarin.Forms.Thickness)">
+            <summary>
+            Update drop down view margin.
+            </summary>
+            <param name="thickness">Thickness.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateTokenViewPadding(Xamarin.Forms.Thickness)">
+            <summary>
+            Update token view top padding.
+            </summary>
+            <param name="thickness">Top padding.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateClearButtonColor(Xamarin.Forms.Color)">
+            <summary>
+            Update clear button color.
+            </summary>
+            <param name="clearButtonColor">Clear button color.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#UpdateClearButtonPadding(Xamarin.Forms.Thickness)">
+            <summary>
+            Update clear button bottom padding.
+            </summary>
+            <param name="thickness">Bottom padding.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IDropDownView#GetSelectedItemsCount">
+            <summary>
+            Update count of the selected items.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#Themes#IParentThemeElement#GetThemeDictionary">
+            <summary>
+            Method invoke to get the initial set of color's from theme dictionary.
+            </summary>
+            <returns>Return the SfComboBox theme dictionary</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnComboBoxPropertyChanged(System.String)">
+            <summary>
+            The method gets invoked when the combo box property gets changed.
+            </summary>
+            <param name="propertyName">The Property name.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.InvalidateFormsView">
+            <summary>
+            Helper method to invalidate the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> view.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnMeasure(System.Double,System.Double)">
+            <summary>
+            Ons the measure.
+            </summary>
+            <returns>The measure.</returns>
+            <param name="widthConstraint">Width constraint.</param>
+            <param name="heightConstraint">Height constraint.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnParentSet">
+            <summary>
+            Override method to detect whenever the parent is set.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDefaultDroDownButtonSettings">
+            <summary>
+            Get the Default DropDownButton Settings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDefaultTokenSettings">
+            <summary>
+            Get the Default Token Settings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnComboBoxModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles combox mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSuggestionModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles suggestion mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSuggestionBoxPlacementPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles suggestion box placement changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnMultiSelectModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles MultiSelect mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTokensWrapModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles TokensWrap mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTokenSettingsPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles TokenSettings changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnKeyboardPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Keyboard changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnImageMemberPathPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles suggestion mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownHeaderViewPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles suggestion mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownHeaderViewHeightPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDownHeaderViewHeight changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnShowDropDownHeaderViewPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles ShowDropDownHeaderView changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownFooterViewPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDownFooterView changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownFooterViewHeightPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Footer View Height changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnLoadMoreTemplatePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles LoadMoreTemplate changed event.
+            </summary>
+            <param name="bindable">the data binding object.</param>
+            <param name="oldValue">the old value.</param>
+            <param name="newValue">the new value.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnShowDropDownFooterViewPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Show DropDown Footer View changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownCornerRadiusPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Corner Radius changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownBackgroundColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Background Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTextHighlightModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles TextHighlight mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectAllOnFocusPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles SelectAllOnFocus changed event.
+            </summary>
+            <param name="bindable">The data binding object.</param>
+            <param name="oldValue">The old value.</param>
+            <param name="newValue">The new value.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnHighlightedTextColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Highlighted Text Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnHighlightedTextFontAttributesPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Highlighted Text FontAttributes changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnMaximumSuggestionPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Maximum Suggestion changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnEnableSelectionIndicatorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Enable Selection Indicator changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIndicatorTextPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Indicator Text changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIndicatorFontFamilyPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Indicator Font Family changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIndicatorTextColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Indicator Text Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIndicatorTextSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Indicator Text Size changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnItemPaddingPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Item Padding changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnFilteredItemsPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Filtered Items changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDelimiterPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Delimiter changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsFocusedPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Is Focused changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnShowClearButtonPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Show Clear Button changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsSelectedItemsVisibleInDropDownPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Is SelectedItems Visible changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnClearButtonColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Clear Button Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIgnoreDiacriticPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Ignore Diacritic changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnShowBorderPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Show Border changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnLoadMoreTextPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Load More Text changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnNoResultsFoundTextPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles No Results Found Text changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnNoResultsFoundTextColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles NoResultsFoundTextColor changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnNoResultsFoundFontSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles NoResultsFoundFontSize changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnNoResultsFoundFontFamilyPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles NoResultsFoundFontFamily changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnNoResultsFoundFontAttributesPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles NoResultsFoundFontAttributes changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnWatermarkPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Watermark changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnMinimumPrefixCharactersPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Minimum Prefix Characters changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnShowSuggestionsOnFocusPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Show Suggestions On Focus changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectionTypePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selection Type.
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsDropDownOpenPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles IsDropDownOpen changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownItemHeightPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Item Height changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTextPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Text changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnMaximumDropDownHeightPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Maximum DropDown Height changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownTextSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Text Size changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTextSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Text Size changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnPopupDelayPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Popup Delay changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSearchDelayPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles SearchDelay changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTextColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Text Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnWatermarkColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Watermark Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnBorderColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Border Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownBorderColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles drop down border Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnComboBoxSourcePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles ComboBox Source changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnItemTemplatePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Item Template changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownTextColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Text Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDisplayMemberPathPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Display Member Path changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedValuePathPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selected Value Path changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDataSourcePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Data Source changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownButtonSettingsPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Button Settings changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedValuePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selected Value changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedIndexPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selected Index changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedIndicesPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles suggestion mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedItemPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selected Item changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownItemFontAttributesPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Item Font Attributes changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnFontAttributesPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Font Attributes changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnFontFamilyPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles FontFamily changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownItemFontFamilyPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Item Font Family changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnItemsSourcePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Items Source changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsEditableModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Is Editable Mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnAllowFilteringPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Allow Filtering changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnEnableAutoSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Enable AutoSize changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnCustomViewPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Custom View changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnSelectedDropDownItemColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Selected DropDown Item Color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownWidthPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Width changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownMarginPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles DropDown Margin changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnClearButtonBackgroundColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles ClearButton BackgroundColor changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnFocusedBorderColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles Focused BorderColor
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTokenTopPaddingPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles TokenView Padding changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsSuggestionForTextInputLayoutPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles IsSuggestion changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnCloseButtonTopPaddingPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles TokenView Padding changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsTextInputLayoutPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles text input layout control changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnIsTextInputLayoutOutLineModePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles text input layout control filled mode changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnDropDownBorderSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles drop down border size changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnTokenDeleteButtonCrossColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles token delete button color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.OnOpenComboBoxDropDownPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles token delete button color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetClearButtonColor">
+            <summary>
+            Gets the color of the clear button.
+            </summary>
+            <returns>The clear button color.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetNoResultsFoundText">
+            <summary>
+            Gets the no results found text.
+            </summary>
+            <returns>The no results found text.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDefaulNoResultsFoundFontSize">
+            <summary>
+            Get default value of NoResultsFoundFontSize.
+            </summary>
+            <returns>returns default font size for no results found.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.SetSelectedDropDownItemColor">
+            <summary>
+            Set selected drop down item color.
+            </summary>
+            <returns>The drop down item color.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDropDownBorderColor">
+            <summary>
+            Get the color of drop down border.
+            </summary>
+            <returns>The drop down border color.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDropDownBackgroundColor">
+            <summary>
+            Get the drop down background color
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetSelectedDropDownItemColor">
+            <summary>
+            Get the selected drop down item color
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetTextInputTokenDeleteButtonColor">
+            <summary>
+            Get the token delete button color
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetBorderColor">
+            <summary>
+            Get border color.
+            </summary>
+            <returns>The bordercolor.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDefaultTextSize">
+            <summary>
+            Get text size.
+            </summary>
+            <returns>The bordercolor.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.GetDefaultDropDownTextSize">
+            <summary>
+            Get drop down text size.
+            </summary>
+            <returns>The bordercolor.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.Handle_SizeChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the size changed.
+            </summary>
+            <param name="sender">Object of the sender.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.ConvertDataTableToCollection(System.Data.DataTable)">
+            <summary>
+            To convert the data table to collection and set to the Datasource property.
+            </summary>
+            <param name="itemsSource"> Data table</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.ValidateInputTextLayout">
+            <summary>
+            Validate the parent is a TextInputLayout or not.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.CheckPadding">
+            <summary>
+            Change the padding of TextInputLayout value in Android.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.DefaultValueForInputTextLayout">
+            <summary>
+            Defaults the value for input text layout.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.FloatingLabelSupport">
+            <summary>
+            Floatings the label support for InputTextLayout.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseValueChanged(Syncfusion.XForms.ComboBox.ValueChangedEventArgs)">
+            <summary>
+            Raises the ValueChanged event.
+            </summary>
+            <param name="args">The ValueChangedEventArgs for the event.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseSelectionChanged(Syncfusion.XForms.ComboBox.SelectionChangedEventArgs)">
+            <summary>
+            Raises the SelectionChanged event.
+            </summary>
+            <param name="args">The SelectionChangedEventArgs for the event.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseSelectionChanging(Syncfusion.XForms.ComboBox.SelectionChangingEventArgs)">
+            <summary>
+            Raises the SelectionChanging event.
+            </summary>
+            <param name="args">The SelectionChangingEventArgs for the event.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseCompleted(System.EventArgs)">
+            <summary>
+            Raises the Completed event.
+            </summary>
+            <param name="args">Arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseFocusChanging(Syncfusion.XForms.ComboBox.FocusChangedEventArgs)">
+            <summary>
+            Raises the FocusChanged event.
+            </summary>
+            <param name="args">FocusChanged event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseFilterCollectionChanging(Syncfusion.XForms.ComboBox.FilterCollectionChangedEventArgs)">
+            <summary>
+            Raises the filtered collection changing.
+            </summary>
+            <param name="args">The FilterCollectionChangedEventArgs.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseDropDownOpen(System.EventArgs)">
+            <summary>
+            Raises the DropDownOpen event.
+            </summary>
+            <param name="args">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseDropDownClosed(System.EventArgs)">
+            <summary>
+            Raises the DropDownClosed event.
+            </summary>
+            <param name="args">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseDropDownClosing(Syncfusion.XForms.ComboBox.DropDownCancelEventArgs)">
+            <summary>
+            Raises the DropDownClosing event.
+            </summary>
+            <param name="args">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseLoadMoreButtonTapped(System.EventArgs)">
+            <summary>
+            Raises the load more button tapped event.
+            </summary>
+            <param name="args">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBox.RaiseComboBoxTapped(System.EventArgs)">
+            <summary>
+            Raises the ComboBoxTapped event.
+            </summary>
+            <param name="args">Event arguments.</param>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBox.Syncfusion#XForms#TextInputLayout#IComboBox#HasChangeCharacters">
+            <summary>
+            Gets a value indicating whether the ComboBox interface.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBoxItem">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> class represents an item that can be added as a child.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBoxItem.TextNameProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBoxItem.TextName"/> bindable property. This property can be used to change the name of the text in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.SfComboBoxItem.ImageNameProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBoxItem.ImageName"/> bindable property. This property can be used to change the image in SfComboBox.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBoxItem.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> class, which represents an item that can be added as a child.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBoxItem.TextName">
+            <summary>
+            Gets or sets the value of TextName. This property can be used to change the name of the text in SfComboBox.
+            </summary>
+            <value>The name of the text.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.SfComboBoxItem.ImageName">
+            <summary>
+            Gets or sets the value of ImageName. This property can be used to change the image in SfComboBox.
+            </summary>
+            <value>The Default value is string.Empty.</value>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.SfComboBoxStyles">
+            <summary>
+            The <see cref="T:Syncfusion.XForms.ComboBox.SfComboBoxStyles"/> class holds theme style for <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/>.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.SfComboBoxStyles.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBoxStyles" /> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.TokenSettings">
+            <summary>
+            TokenSettings represents a class that contains properties for token customizations in the <see cref = "T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.DefaultDeleteButtonColor">
+            <summary>
+            The default color of the delete button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.DefaultCornerRadius">
+            <summary>
+            The default corner radius of the token item.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.SelectedBackgroundColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.SelectedBackgroundColor"/> bindable property. This property can be used to change the background color of selection.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.BackgroundColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.BackgroundColor"/> bindable property. This property can be used to change the background color of tokens.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.TextColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.TextColor"/> bindable property. This property can be used to change the text color of tokens in SfAutoComplete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.CornerRadiusProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.CornerRadius"/> bindable property. This property can be used to get the rounded-shaped corner of tokens.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.FontSizeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.FontSize"/> bindable property. This property can be used to change the font size of tokens.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.FontFamilyProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.FontFamily"/> bindable property. This property can be used to change the font family of tokens.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.IsCloseButtonVisibleProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.IsCloseButtonVisible"/> bindable property. It indicates whether the close button is visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonPlacement"/> bindable property. This property can be used to change the position of the delete button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonColorProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonColor"/> bindable property. This property can be used to change the color of the delete button.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.XForms.ComboBox.TokenSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.SelectedBackgroundColor">
+            <summary>
+            Gets or sets the value of color. This property can be used to change the background color of selection.
+            </summary>
+            <value>The default value is LightGray.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.BackgroundColor">
+            <summary>
+            Gets or sets the value of background. This property can be used to change the background color of tokens.
+            </summary>
+            <value>The default value is ("#e9e9e9").</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.TextColor">
+            <summary>
+            Gets or sets the value of TextColor. This property can be used to change the text color of tokens in SfAutoComplete.
+            </summary>
+            <value> The default value is Black.
+            </value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.CornerRadius">
+            <summary>
+            Gets or sets the value of CornerRadius. This property can be used to get the rounded-shaped corner of tokens.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.FontSize">
+            <summary>
+            Gets or sets the value of FontSize. This property can be used to change the font size of tokens.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.FontFamily">
+            <summary>
+            Gets or sets the value of the FontFamily. By This property can be used to change the fontfamily of tokens.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.IsCloseButtonVisible">
+            <summary>
+            Gets or sets a value that indicates whether the  close button of <see cref="T:Syncfusion.SfComboBox.XForms.TokenSettings"/> is visible.
+            </summary>
+            <value><c>true</c> if is close button visible; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonColor">
+            <summary>
+            Gets or sets the color of DeleteButtonColor. This property can be used to change the color of the delete button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.DeleteButtonPlacement">
+            <summary>
+            Gets or sets the value of the DeleteButtonPlacement. This property can be used to change the position of the delete button.
+            </summary>
+            <value>The delete button placement.</value>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.IsStyleAppliedForBackgroundColor">
+            <summary>
+            Represents the style was applied or not for BackgroundColor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.IsStyleAppliedForFontSize">
+            <summary>
+            Represents the style was applied or not for FontSize
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.TokenSettings.IsStyleAppliedForDeleteButtonColor">
+            <summary>
+            Represents the style was applied or not for DeleteButtonColor
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.Syncfusion#XForms#Themes#IThemeElement#OnControlThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke when theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newTheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.Syncfusion#XForms#Themes#IThemeElement#OnCommonThemeChanged(System.String,System.String)">
+            <summary>
+            Method invoke at whenever common theme changes.
+            </summary>
+            <param name="oldTheme">Old theme name</param>
+            <param name="newtheme">New theme name</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.GetFontFamily">
+            <summary>
+            Gets the font family.
+            </summary>
+            <returns>The font family.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.GetDeleteButtonColor">
+            <summary>
+            Gets the color of the delete button.
+            </summary>
+            <returns>The delete button color.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.OnFontSizePropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles font size changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.OnBackgroundColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles background color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="M:Syncfusion.XForms.ComboBox.TokenSettings.OnDeleteButtonColorPropertyChanged(Xamarin.Forms.BindableObject,System.Object,System.Object)">
+            <summary>
+            Handles delete button color changed event
+            </summary>
+            <param name="bindable">the data binding object</param>
+            <param name="oldValue">the old value</param>
+            <param name="newValue">the new value</param>
+        </member>
+        <member name="T:Syncfusion.XForms.ComboBox.ValueChangedEventArgs">
+            <summary>
+            <see cref="T:Syncfusion.XForms.ComboBox.ValueChangedEventArgs"/> class contains an arguments of its own.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.ComboBox.ValueChangedEventArgs.Value">
+            <summary>
+            Gets the <see cref="P:Syncfusion.XForms.ComboBox.SfComboBox.Text"/> of the <see cref="T:Syncfusion.XForms.ComboBox.SfComboBox"/> control.
+            </summary>
+        </member>
+    </members>
+</doc>

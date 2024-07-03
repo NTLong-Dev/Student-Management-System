@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLSV</RootNamespace>
+    <AssemblyName>QLSV</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core.XForms, Version=25.1.40.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Xamarin.Core.25.1.40\lib\netstandard2.0\Syncfusion.Core.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=25.1462.40.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.25.1.40\lib\net462\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfComboBox.XForms, Version=25.1.40.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Xamarin.SfComboBox.25.1.40\lib\netstandard2.0\Syncfusion.SfComboBox.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chitietdiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chitietdiem.Designer.cs">
+      <DependentUpon>chitietdiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chitietkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chitietkhoa.Designer.cs">
+      <DependentUpon>chitietkhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chitietlop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chitietlop.Designer.cs">
+      <DependentUpon>chitietlop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="diem.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="diemSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diemSV.Designer.cs">
+      <DependentUpon>diemSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doimk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doimk.Designer.cs">
+      <DependentUpon>doimk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Du_AnDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Du_AnDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giangvien.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hocphan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hocphan.Designer.cs">
+      <DependentUpon>hocphan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hocphi.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hoc_phan.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="khoa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lop.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lopvakhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lopvakhoa.Designer.cs">
+      <DependentUpon>lopvakhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileGV.Designer.cs">
+      <DependentUpon>ProfileGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qmk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qmk.Designer.cs">
+      <DependentUpon>qmk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sinhvien.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="suadiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suadiem.Designer.cs">
+      <DependentUpon>suadiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suagv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suagv.Designer.cs">
+      <DependentUpon>suagv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="quanliGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quanliGV.Designer.cs">
+      <DependentUpon>quanliGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="quanliSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quanliSV.Designer.cs">
+      <DependentUpon>quanliSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit.Designer.cs">
+      <DependentUpon>edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suahp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suahp.Designer.cs">
+      <DependentUpon>suahp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suakhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suakhoa.Designer.cs">
+      <DependentUpon>suakhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sualop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sualop.Designer.cs">
+      <DependentUpon>sualop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taichinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taichinh.Designer.cs">
+      <DependentUpon>taichinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themdiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themdiem.Designer.cs">
+      <DependentUpon>themdiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themgv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themgv.Designer.cs">
+      <DependentUpon>themgv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themhp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themhp.Designer.cs">
+      <DependentUpon>themhp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themkhoa.Designer.cs">
+      <DependentUpon>themkhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themlop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themlop.Designer.cs">
+      <DependentUpon>themlop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themsv.Designer.cs">
+      <DependentUpon>themsv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thongtindiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thongtindiem.Designer.cs">
+      <DependentUpon>thongtindiem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="chitietdiem.resx">
+      <DependentUpon>chitietdiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chitietkhoa.resx">
+      <DependentUpon>chitietkhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chitietlop.resx">
+      <DependentUpon>chitietlop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diemSV.resx">
+      <DependentUpon>diemSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doimk.resx">
+      <DependentUpon>doimk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit.resx">
+      <DependentUpon>edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hocphan.resx">
+      <DependentUpon>hocphan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.vi-VN.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lopvakhoa.resx">
+      <DependentUpon>lopvakhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileGV.resx">
+      <DependentUpon>ProfileGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="qmk.resx">
+      <DependentUpon>qmk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quanliGV.resx">
+      <DependentUpon>quanliGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quanliSV.resx">
+      <DependentUpon>quanliSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suadiem.resx">
+      <DependentUpon>suadiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suagv.resx">
+      <DependentUpon>suagv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suahp.resx">
+      <DependentUpon>suahp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suakhoa.resx">
+      <DependentUpon>suakhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sualop.resx">
+      <DependentUpon>sualop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taichinh.resx">
+      <DependentUpon>taichinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themdiem.resx">
+      <DependentUpon>themdiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themgv.resx">
+      <DependentUpon>themgv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themhp.resx">
+      <DependentUpon>themhp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themkhoa.resx">
+      <DependentUpon>themkhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themlop.resx">
+      <DependentUpon>themlop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themsv.resx">
+      <DependentUpon>themsv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongtindiem.resx">
+      <DependentUpon>thongtindiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Du_AnDataSet.xsc">
+      <DependentUpon>Du_AnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet.xss">
+      <DependentUpon>Du_AnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet1.xsc">
+      <DependentUpon>Du_AnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet1.xss">
+      <DependentUpon>Du_AnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet2.xsc">
+      <DependentUpon>Du_AnDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet2.xss">
+      <DependentUpon>Du_AnDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet3.xsc">
+      <DependentUpon>Du_AnDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet3.xss">
+      <DependentUpon>Du_AnDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet4.xsc">
+      <DependentUpon>Du_AnDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet4.xss">
+      <DependentUpon>Du_AnDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet5.xsc">
+      <DependentUpon>Du_AnDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet5.xss">
+      <DependentUpon>Du_AnDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet6.xsc">
+      <DependentUpon>Du_AnDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet6.xss">
+      <DependentUpon>Du_AnDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet7.xsc">
+      <DependentUpon>Du_AnDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Du_AnDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Du_AnDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Du_AnDataSet7.xss">
+      <DependentUpon>Du_AnDataSet7.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-search-box-button-button-desktop-wallpaper-search-box-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-statistics-bar-chart-histogram-statistics-miscellaneous-angle-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5321824261598_70e9706d24b5c28fa9b2b12b87ad06fe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-money-icon-salary-money-invest-finance-hand-holding-dollar-line-symbols-on-white-background-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43912.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bai1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bai2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bai3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bai4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUNRE_Logo %281%29 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUNRE_Logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUNRE_Logo %281%29 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUNRE_Logo %281%29 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-bg.ai_1712476403879.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-bg.ai_17124764038791.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove-bg.ai_1712476403879 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\academic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên %282%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

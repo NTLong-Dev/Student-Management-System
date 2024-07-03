@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Du_AnDataSet7" targetNamespace="http://tempuri.org/Du_AnDataSet7.xsd" xmlns:mstns="http://tempuri.org/Du_AnDataSet7.xsd" xmlns="http://tempuri.org/Du_AnDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Du_AnConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Du_AnConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLSV.Properties.Settings.GlobalReference.Default.Du_AnConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lopTableAdapter" GeneratorDataComponentClassName="lopTableAdapter" Name="lop" UserDataComponentName="lopTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Du_AnConnectionString (Settings)" DbObjectName="Du_An.dbo.lop" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT khoahoc FROM dbo.lop</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="khoahoc" DataSetColumn="khoahoc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Du_AnDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Du_AnDataSet7" msprop:Generator_DataSetName="Du_AnDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="lop" msprop:Generator_RowEvHandlerName="lopRowChangeEventHandler" msprop:Generator_RowDeletedName="lopRowDeleted" msprop:Generator_RowDeletingName="lopRowDeleting" msprop:Generator_RowEvArgName="lopRowChangeEvent" msprop:Generator_TablePropName="lop" msprop:Generator_RowChangedName="lopRowChanged" msprop:Generator_RowChangingName="lopRowChanging" msprop:Generator_TableClassName="lopDataTable" msprop:Generator_RowClassName="lopRow" msprop:Generator_TableVarName="tablelop" msprop:Generator_UserTableName="lop">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="khoahoc" msprop:Generator_ColumnPropNameInRow="khoahoc" msprop:Generator_ColumnPropNameInTable="khoahocColumn" msprop:Generator_ColumnVarNameInTable="columnkhoahoc" msprop:Generator_UserColumnName="khoahoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

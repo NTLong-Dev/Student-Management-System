@@ -1,0 +1,3732 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfComboBox.XForms.UWP</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox">
+            <summary>
+            Represents the control for choosing an option from drop down list. It also supports to filter the suggestions based on typed text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.leftPadding">
+            <summary>
+            The content element left padding.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.keydown">
+            <summary>
+            key down variable 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.tokenItem">
+            <summary>
+            Token item field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.topPadding">
+            <summary>
+            The content element top padding.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.parentPopupView">
+            <summary>
+            Parent popup view.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.multiselectItems">
+            <summary>
+            Temporarily stores the selected item collection
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionPredicate`1">
+            <summary>
+            The delegate having reference to Filter method
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="search"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isLoadMoreItem">
+            <summary>
+            Gets or sets a value indicating selecteditem is LoadMore.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isDownOrUpKeyPressed">
+            <summary>
+            Indicate whether pressed key is down or up key.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.previousSuggestions">
+            <summary>
+            The field for previous suggestions.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.areSuggestionsIteratedUsingKeyboard">
+            <summary>
+            Indicates whether traversing is done through keys in SuggestionBox
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isNoResultItem">
+            <summary>
+            Gets or sets a value indicating selecteditem is NoResultFound.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.suggestionBox">
+            <summary>
+            Gets or sets the value of Part suggestion box.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.popup">
+            <summary>
+            Gets or sets the value of Part Popup
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownButton">
+            <summary>
+            The instance of drop down button
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.multiselectionDeleteButton">
+            <summary>
+            The instance of multiselection delete button
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Filter">
+            <summary>
+            Returns a SuggestionPredicate on filtering
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.selectionChangingEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownCancelEventArgs">
+            <summary>
+            The dropdown cancel event args
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.multiSelectionSelectionChangedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.allSuggestions">
+            <summary>
+            Internal collection field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isSuggestionBoxTapped">
+            <summary>
+            Whether tapped the suggestion box or not
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isItemSelected">
+            <summary>
+            Whether the item already selected or not while open the suggestion box. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.selectedItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.append">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isKeyDownPressed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isKeyUpPressed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.appendText">
+            <summary>
+            Temp text field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiselectionSelectedItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isFocusShiftedFromList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isTokenRemoved">
+            <summary>
+            Indicates whether all tokens can be cleared to recreate.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.tokenPanel">
+            <summary>
+            Instance of multiselection panel
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.popupTimer">
+            <summary>
+            Gets or sets the value of Popup timer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.deleteButton">
+            <summary>
+            Instance of the default delete button
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.formsComboBox">
+            <summary>
+            The instance of Xamarin.Forms control
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.multipanelScrollViewer">
+            <summary>
+            Instance of MultipanelScrollViewer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.deleteButtonWidth">
+            <summary>
+            Width of the delete button
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownButtonWidth">
+            <summary>
+            Width of the drop down button
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.selectedItems">
+            <summary>
+            Temporarily stores the selected item values.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isPressBackKey">
+            <summary>
+            Indicate when press back key.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.comboBoxItems">
+            <summary>
+            Contains the AutoCompleteSource items.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.canAppend">
+            <summary>
+            Can append field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.canSuggest">
+            <summary>
+            Can suggest field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isCustom">
+            <summary>
+            Is custom field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isKeyboardInteracted">
+            <summary>
+            Filed for keyboard interaction.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.previousText">
+            <summary>
+            The filed for previous text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isPopupViewOpen">
+            <summary>
+            Is drop down open field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.loadedSuggestionsCount">
+            <summary>
+            Internal count field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.isInternalClear">
+            <summary>
+            Internal clear field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.appendItems">
+            <summary>
+            Append items field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.appendIndex">
+            <summary>
+            append index field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.enteredTextWithNoResult">
+            <summary>
+            Validate text field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.originalTextforSuggestion">
+            <summary>
+            Original text for suggestion field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.automationId">
+            <summary>
+            AutomationId field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.resourceDictionary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.noResultItems">
+            <summary>
+            Validate item field.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.multiselectionItems">
+            <summary>
+            Collection which stores the multiple selected items
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.filterItemsCollection">
+            <summary>
+            Collection which stores the multiple selected items
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.listBox">
+            <summary>
+            List box item for no results found.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.splittedText">
+            <summary>
+            Collection which stores the splitted text with Delimiter.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.nonEditableEntry">
+            <summary>
+            Default entry for NonEditableMode
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.customView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.columnGrid">
+            <summary>
+            column Grid field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.contentElement">
+            <summary>
+            Default entry field
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownFooter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.footerRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.headerRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDownGrid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.dropDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.watermarkElement">
+            <summary>
+            Instance of element holding Watermark. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.placeholderElement">
+            <summary>
+            Instance of element holding Placeholder.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.nonEditableVerticalMultiSelectionTemplateKey">
+            <summary>
+            Resource key of non-editable wrapable multiselection template
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.nonEditableHorizontalMultiSelectionTemplateKey">
+            <summary>
+            Resource key of non-editable non-wrapable multiselection template
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.editableVerticalMultiSelectionTemplateKey">
+            <summary>
+            Resource key of editable wrapable multiselection template
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.editableHorizontalMultiSelectionTemplateKey">
+            <summary>
+            Resource key of editable non-wrapable multiselection template
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.defaultComboBoxTemplateKey">
+            <summary>
+            Resource key of none and delimiter multiselection template
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.point">
+            <summary>
+            point value to determine the suggestion box placement position.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.buttonTransform">
+            <summary>
+            To get the control position value.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.buttonPosition">
+            <summary>
+            To set the combobox control position.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.#ctor">
+            <summary>
+             Initializes a new instance of the <see cref="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox" /> class.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.CustomViewProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectionTypeProperty">
+            <summary>
+            Identifies the <see cref="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectionType"/> bindable property. This property indicates whether the Selection Type is Default or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownCornerRadiusProperty">
+            <summary>
+            Gets or sets the corner radius for dropdown . It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonSettingsProperty">
+            <summary>
+            Gets or sets the settings for dropdown button. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsEditableProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AllowFilteringProperty">
+            <summary>
+            Gets or sets a value indicating whether filtering is allowed in ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxModesProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AllowPointerEventsProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownMarginProperty">
+             <summary>
+            Gets or sets the margin of the drop down. It is a dependency property.
+             </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonMinimumWidthProperty">
+            <summary>
+            Gets or sets the drop down button width .It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonMinimumHeightProperty">
+            <summary>
+            Gets or sets the drop down button height .It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsLightDismissEnabledProperty">
+            <summary>
+            Gets or sets value for Popup IsLightDismissEnabled property. .It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxSourceProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemTemplateProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemTemplateSelectorProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemsPanelProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSuggestionOpenProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxPositionProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SearchItemPathProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ItemPaddingProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.EnableSelectionIndicatorProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorTextSizeProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorTextColorProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorFontFamilyProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorTextProperty">
+            <summary>
+            Gets or sets the custom view for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IgnoreDiacriticProperty">
+            <summary>
+            Gets or sets a value indicating whether diacritics are ignored in filtering suggestions. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundTextProperty">
+            <summary>
+            Gets or sets the no result found text. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundTextColorProperty">
+            <summary>
+            Gets or sets the no result found text color. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontSizeProperty">
+            <summary>
+            Gets or sets the no result found text size. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontFamilyProperty">
+            <summary>
+            Gets or sets the no result found font family. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontStyleProperty">
+            <summary>
+            Gets or sets the no result found font style. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontWeightProperty">
+            <summary>
+            Gets or sets the no result found font weight. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreTextProperty">
+            <summary>
+            Gets or sets the load more text. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSelectedItemsVisibleInDropDownProperty">
+            <summary>
+            Gets or sets a value indicating whether selected items are shown in drop down. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsFocusedProperty">
+            <summary>
+            Gets or sets a value indicating whether the control is focused. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokenSettingsProperty">
+            <summary>
+            Gets or sets the TokenSettings for ComboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ImageMemberPathProperty">
+            <summary>
+             Using a DependencyProperty as the backing store for TokenIconPath. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiSelectModeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ComboBoxtype.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokensWrapModeProperty">
+             <summary>
+            Using a DependencyProperty as the backing store for TokenLayoutMode.  This enables animation, styling, binding, etc... 
+             </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HorizontalScrollWidthProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for MaxValue.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokenTopPaddingProperty">
+            <summary>
+            Gets or sets the padding of token panel. It is a dependency property. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSuggestionForTextInputLayoutProperty">
+            <summary>
+            Gets or sets the value indicates whether the pop up open or not. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsTextInputLayoutProperty">
+            <summary>
+            Gets or sets the is text input layout. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsTextInputLayoutOutLineModeProperty">
+            <summary>
+            Gets or sets the is text input layout. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectAllOnFocusProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SelectAllOnFocus.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MaximumSuggestionProperty">
+            <summary>
+             // Using a DependencyProperty as the backing store for MaximumSuggestion.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.FilteredItemsProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for FilteredItems.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TextHighlightModeProperty">
+            <summary>
+            // Using a DependencyProperty as the backing store for TextHighlightMode.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for HighlightedTextColor. This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextFontStyleProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for HighlightTextFontAttributes. This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextFontWeightProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for HighlightFontWeight.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ValueMemberPathProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ValueMemberPath.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemHeightProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemHeight.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontSizeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemFontSize.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontStyleProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemFontStyle.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontFamilyProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemFontFamily.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontWeightProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemFontWeight.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemForegroundProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionItemForeground.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionsProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Suggestions.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionIndexProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionIndex.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionIndicesProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionIndices.  This enables animation, styling, binding, etc...
+            </summary>       
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxModeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ComboBoxMode.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxPlacementProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ComboBoxMode.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionModeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ComboBoxMode.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MinimumPrefixCharactersProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for MinimumPrefixCharacters.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SearchDelayProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SearchDelay.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.PopupDelayProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for PopupDelay.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MaxDropDownHeightProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for MaxDropDownHeight.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxStyleProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SuggestionBoxStyle.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DelimiterProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Delimiter.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowSuggestionsOnFocusProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ShowSuggestionsOnFocus.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedItemProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SelectedItem.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedValueProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SelectedItem.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedDropDownItemColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for SelectedDropDownItemColor.  This enables animation, styling, binding, etc...
+            </summary>    
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownWidthProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownWidth.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownBackgroundProperty">
+            <summary>
+            Gets or sets the background color for the drop down. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.BackgroundProperty">
+            <summary>
+            Gets or sets the background color for the comboBox. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowClearButtonProperty">
+            <summary>
+            Gets or sets a value indicating whether clear button is shown. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ClearButtonColorProperty">
+            <summary>
+            Gets or sets a the color for clear button. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowBorderProperty">
+            <summary>
+            Gets or sets a value indicating whether border is shown. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowDropDownHeaderViewProperty">
+            <summary>
+            Gets or sets a value indicating whether drop down header view is shown. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowDropDownFooterViewProperty">
+            <summary>
+            Gets or sets a value indicating whether drop down footer view is shown. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownHeaderViewProperty">
+            <summary>
+            Gets or sets the value for drop down header view. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownFooterViewProperty">
+            <summary>
+            Gets or sets the value for drop down footer view. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreTemplateProperty">
+            <summary>
+            Gets or sets the value for drop down footer view. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownHeaderViewHeightProperty">
+            <summary>
+            Gets or sets the height for drop down header view. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownFooterViewHeightProperty">
+            <summary>
+            Gets or sets the height for drop down footer view. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Watermark.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkForegroundProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for WatermarkForeground.  This enables animation, styling, binding, etc...
+            </summary> 
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownBorderColorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for DropDownBorderColor.  This enables animation, styling, binding, etc...
+            </summary>     
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.EnableAutoSizeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for EnableAutoSize.  This enables animation, styling, binding, etc...
+            </summary>     
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkTemplateProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for WatermarkTemplate.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkTemplateSelectorProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for WatermarkTemplateSelector.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionsChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.Suggestions"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Completed">
+            <summary>
+            Completed event
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectionChanging">
+            <summary>
+            SelectionChanging event
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiSelectionSelectionChanged">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedItemChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.Suggestions"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionPopupOpened">
+            <summary>
+            Occurs when suggestion box popup is opened.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionPopupClosed">
+            <summary>
+            Occurs when suggestion box popup is closed.
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.IsSuggestionOpen"/>
+            </summary>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxTapped">
+            <summary>
+            Occurs when tap comboBox.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnComboBoxTapped(System.EventArgs)">
+            <summary>
+            Occurs when click the comboBox in non-editable mode.
+            </summary>
+            <param name="args">The args.</param>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IgnoreDiacritic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.EnableAutoSize">
+            <summary>
+            Gets or sets a value to change of enable auto size
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundTextColor">
+            <summary>
+            Gets or sets a value to change the text color of NoResultsFound.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontSize">
+            <summary>
+            Gets or sets a value to change the size of NoResultsFoundText.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontFamily">
+            <summary>
+            Gets or sets a value to change the font family of NoResultsFoundText.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontStyle">
+            <summary>
+            Gets or sets a value to change the font style of NoResultsFound.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundFontWeight">
+            <summary>
+            Gets or sets a value to change the font style of NoResultsFound.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownCornerRadius">
+            <summary>
+            Gets or sets the corner radius for the drop down. 
+            <value>Optimal value is between 0.0 and 5.0.</value>
+            </summary>	
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownWidth">
+            <summary>
+             Gets or sets the value of DropDownWidth.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedDropDownItemColor">
+            <summary>
+            Gets or sets the value of SelectedDropDownItemColor color property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.CustomView">
+            <summary>
+            Gets or sets the custom view for ComboBox.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxModes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AllowFiltering">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Background">
+            <summary>
+            Base background color property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonSettings">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsEditable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownBackground">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorText">
+            <summary>
+            Gets or Sets the value of IndicatorText
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ItemPadding">
+            <summary>
+            Gets or Sets the value of itempadding
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorTextSize">
+            <summary>
+            Gets or Sets the value of IndicatorTextSize
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorTextColor">
+            <summary>
+            Gets or Sets the value of IndicatorTextColor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IndicatorFontFamily">
+            <summary>
+            Gets or Sets the value of IndicatorFontFamily
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.EnableSelectionIndicator">
+            <summary>
+            Gets or Sets the value of EnableSelectionIndicator
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowClearButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ClearButtonColor">
+            <summary>
+            Gets or sets the color for clear button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowBorder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowDropDownHeaderView">
+            <summary>
+            Gets or sets a value indicating whether dropdown header view is shown.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowDropDownFooterView">
+            <summary>
+            Gets or sets a value indicating whether dropdown footer view is shown.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownHeaderView">
+            <summary>
+            Gets or sets the dropdown header view.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownFooterView">
+            <summary>
+            Gets or sets the dropdown footer view.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreTemplate">
+            <summary>
+            Gets or sets the dropdown load more view..
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownHeaderViewHeight">
+            <summary>
+            Gets or sets the dropdown header view height.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownFooterViewHeight">
+            <summary>
+            Gets or sets the dropdown footer view height.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AreSuggestionsIteratedUsingKeyboard">
+            <summary>
+            Indicate whether pressed key is down or up key.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AllowPointerEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemTemplate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemTemplateSelector">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxItemsPanel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsTextInputLayout">
+            <summary>
+            IsTextInputLayout
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsTextInputLayoutOutLineMode">
+            <summary>
+            Gets or set the value for the TextInputLayout OutLineMode 
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectAllOnFocus" -->
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSuggestionOpen">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxPosition">
+            <summary>
+            Gets the <see cref="N:Windows.Foundation.Point">Point</see> that position the <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.SuggestionBox"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SearchItemPath">
+            <summary>
+            Gets or sets the search item path is used to search the <see
+            cref="P:Syncfusion.XForms.UWP.ComboBox.Suggestions"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.FilteredItems">
+            <summary>
+            Gets or sets an IEnumerable source used to generate the content of the Suggestionbox
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownMargin">
+            <summary>
+            Gets or sets the margin of the drop down
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonMinimumWidth">
+            <summary>
+            Gets or sets the drop down button width.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonMinimumHeight">
+            <summary>
+            Gets or sets the drop down button height.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsLightDismissEnabled">
+            <summary>
+            Gets or sets value for Popup IsLightDismissEnabled property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HorizontalScrollWidth">
+            <summary>
+            Gets or sets a value for HorizontalScrollWidth.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokenTopPadding">
+            <summary>
+            Gets or sets the paddig value for token panel.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSuggestionForTextInputLayout">
+            <summary>
+            Gets or sets the value indicates whether the pop up open or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsSelectedItemsVisibleInDropDown">
+            <summary>
+            Gets or sets a value for  CanSuggestingSelectedItems.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokenSettings">
+            <summary>
+            Gets or sets the customization settings to token.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsFocused">
+            <summary>
+            Gets or Sets the focus for ComboBox
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ImageMemberPath">
+            <summary>
+            Gets or Sets the image for suggestionbox and ComboBox
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokensWrapMode">
+            <summary>
+            Gets or Sets the Layout for Multiselection
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiSelectMode">
+            <summary>
+            Gets or Sets the  mode for Autrocomplete
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectionType">
+            <summary>
+            Gets or Sets the  mode for Autrocomplete
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MaximumSuggestion">
+            <summary>
+             Gets or sets a value indicating MaximumSuggestion in suggestionbox.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextFontWeight">
+            <summary>
+            Gets or sets the highlighting font weight for matched characters in suggestion list
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextFontStyle">
+            <summary>
+            Gets or sets the highlighting font style for matched characters in suggestion list
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HighlightedTextColor">
+            <summary>
+            Gets or sets the highlighting color for matched characters in suggestion list
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TextHighlightMode">
+            <summary>
+            Gets or sets the value of the occurrenceMode
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ValueMemberPath">
+            <summary>
+            Gets or sets the ValueMemberPath
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemHeight">
+            <summary>
+            Gets or sets the height of Suggestion box item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontSize">
+            <summary>
+            Gets or sets the font size of suggestion item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontStyle">
+            <summary>
+            Gets or sets the font style of suggestion item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontFamily">
+            <summary>
+            Gets or sets the font family of suggestion item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemFontWeight">
+            <summary>
+            Gets or sets the font weight of suggestion item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionItemForeground">
+            <summary>
+            Gets or sets the foreground of suggestion item
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Suggestions">
+            <summary>
+            Gets the list of suggestions associated with <see
+            cref="P:Syncfusion.XForms.UWP.ComboBox.SuggestionMode"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionIndex">
+            <summary>
+            Gets or sets the index value of selected item in none mode.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionIndices">
+            <summary>
+            Gets or sets the index value of selected item in token and delimiter mode.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboBoxMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxPlacement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MinimumPrefixCharacters">
+            <summary>
+            Gets or sets the minimum number of prefix characters.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SearchDelay">
+            <summary>
+            Gets or sets the delay in search
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.PopupDelay">
+            <summary>
+            Gets or sets the delay in popup
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MaxDropDownHeight">
+            <summary>
+            Gets or sets the height of the <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.SuggestionBox"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionBoxStyle">
+            <summary>
+            Gets or sets the style with <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.SuggestionBox"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Delimiter">
+            <summary>
+            Gets or sets a string as a delimiter
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowSuggestionsOnFocus">
+            <summary>
+            Gets or sets a value indicating whether true or false.
+            </summary>
+            <value>The default value is false</value>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedItem">
+            <summary>
+            Gets or sets the value of the Selected item
+            <see cref="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox"/>
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectedValue">
+            <summary>
+            Gets or sets the value of the Selected value
+            <see cref="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox"/>
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Watermark">
+            <summary>
+            Gets or sets the content displayed as a watermark in the <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.TextBoxExt"/> when it is empty.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.WatermarkTemplate"/>
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkForeground">
+            <summary>
+            Gets or sets a value to change Watermark foreground
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownBorderColor">
+            <summary>
+            Gets or sets a value to change drop down border color
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkTemplate">
+            <summary>
+            <para>Gets or sets the <see cref="N:Windows.UI.Xaml.DataTemplate"/>
+            used to display the <see
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.Watermark"/> of the <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.TextBoxExt"/>.</para>
+            </summary>
+            <value>
+            The Default value is null. 
+            </value>
+            <seealso cref="P:Syncfusion.XForms.UWP.ComboBox.Input.TextBoxExt.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.WatermarkTemplateSelector">
+            <summary>
+            Gets or sets a value to Provides a way to choose a <see
+            cref="N:Windows.UI.Xaml.Controls.DataTemplateSelector"/> based on
+            the data object and the data-bound <see
+            cref="T:Syncfusion.XForms.UWP.ComboBox.TextBoxExt"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.XForms.UWP.ComboBox.TextBoxExt.WatermarkTemplate"/>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AutomationId">
+            <summary>
+            Gets or sets the AutomationId
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownCancelEventArgs">
+            <summary>
+            Gets or sets the value of dropdown cancel event args property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetCursorPosition(System.Int32)">
+            <summary>
+            Sets the cursor in specified position.
+            </summary>
+            <param name="position">The position to which cursor should be moved</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreItems(System.Int32)">
+            <summary>
+            Loads more number of suggestions in dropdown based on specified count.
+            </summary>
+            <param name="maximumSuggestions">Number of more suggestions to be loaded.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownButtonMinimumWidthChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the DropDownButtonMinimumWidth has changed.
+            </summary>
+            <param name="d">DependencyObject</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownButtonMinimumHeightChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the DropDownButtonMinimumHeight has changed.
+            </summary>
+            <param name="d">DependencyObject</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnIsLightDismissEnabledChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the IsLightDismissEnabled has changed.
+            </summary>
+            <param name="d">DependencyObject</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnShowDropDownHeaderViewChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when ShowDropDownHeaderView property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnShowDropDownFooterViewChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when ShowDropDownFooterView property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownHeaderViewChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when DropDownHeaderView property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownFooterViewChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when DropDownFooterView property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownHeaderViewHeightChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when DropDownHeaderViewHeight property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownFooterViewHeightChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the footer view when DropDownFooterViewHeight property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsEditablechanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ComboboxModeChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Changes the template for token mode and changes the views visibility for None and Delimiter mode.
+            </summary>
+            <param name="d">DependencyObject</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnCustomViewChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the CustomView has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnTokenSettingsChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)" -->
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnTokensWrapModeChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the TokensWrapMode has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnTokenTopPaddingPropertyChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the padding of token panel when token top padding property value is changed.
+            </summary>
+            <param name="dependencyObject">The sender of property changed event</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnMultiSelectModeChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the MultiSelectMode has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDelimiterChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the Delimiter has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnShowClearButtonChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the visibility of delete button.
+            </summary>
+            <param name="dependencyObject">The dependency object</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnComboBoxSourceChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the ComboBoxSource has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSearchItemPathPropertyChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Updates the Text property based on SearchItemPath property value.
+            </summary>
+            <param name="dependencyObject"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnIsSuggestionOpenChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the IsSuggestionOpen has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnMinimumPrefixCharactersChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the value of MinimumPrefixCharacters have changed
+            </summary>
+            <param name="obj">Dependency object type</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSuggestionsChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the Suggestions have changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSuggestionIndexChangd(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the SuggestionIndex have changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSuggestionIndicesChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the SuggestionIndices have changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDropDownCornerRadiusChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the DropDownCornerRadius property changed
+            </summary>
+            <param name="dependencyObject">Dependency object</param>
+            <param name="dependencyPropertyChangedEventArgs">dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSelectedItemChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the Selected Item has changed.
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnValueMemberPathChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            On value Member path changed method
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSelectedValueChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            On selected value changed method
+            </summary>
+            <param name="d">Dependency object type</param>
+            <param name="e">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnCompleted(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when press the Enter key
+            </summary>
+            <param name="obj">Dependency object</param>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnMultiSelectionSelectionChanged(Syncfusion.XForms.UWP.ComboBox.MultiSelectionSelectionChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnIsSuggestionOpenChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the IsSuggestionOpen has changed.
+            </summary>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Content_LostFocus(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Hit when out focus/clicked outside of the Combobox 
+            </summary>
+            <param name="sender">sender value</param>
+            <param name="e">original source</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateIsSuggestionOpenBasedOnHeaderFooterView">
+            <summary>
+            Update the IsSuggestionOpen property based on header and footer view.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnDelimiterChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Prepares the text when the Delimiter has changed.
+            </summary>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.CheckChildrenElement(System.Object)">
+            <summary>
+            Check the Children contain editable control like SfCalendar or entry.
+            </summary>
+            <param name="DropDownView">DropDown View</param>
+            <returns>return bool</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSelectedValueChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            On selected value changed method
+            </summary>
+            <param name="e">Dependency Property Changed Event Args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.FilterSuggestions(System.String,System.Object)">
+            <summary>
+            Filter suggestions method
+            </summary>
+            <param name="search">String type</param>
+            <param name="item">object type</param>
+            <returns>return filter item</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetSelectedItemCollection(System.Object)">
+            <summary>
+            Sets the SelectedItem property based on multi selection mode.
+            </summary>
+            <param name="value">The selected item</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetPropertyValue(System.Object,System.Reflection.TypeInfo,System.String)">
+            <summary>
+            Returns the value of a property from its type information
+            </summary>
+            <param name="selectedObject">Selected object</param>
+            <param name="info">Type information</param>
+            <param name="propertyName">Property name</param>
+            <returns>The property value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DecrementAppendItem">
+            <summary>
+            Decrement Append Item method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IncrementAppendItem">
+            <summary>
+            Increment Append Item method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ClearSuggestions(System.Boolean)">
+            <summary>
+            Sets Suggestion property to null value
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSelectedItemsToken">
+            <summary>
+            Set the selected token items,
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSelectedIndices(Syncfusion.XForms.UWP.ComboBox.SfComboBox)">
+            <summary>
+            Set selected suggestion indices.
+            </summary>
+            <param name="comboBox">The comboBox.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ClearAndCreateTokens">
+            <summary>
+            Clears all the tokens and create new tokens from SelectedItem property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AddTokenItem(System.Object)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.IsValueType(System.Object)">
+            <summary>
+            Returns a boolean value indicating whether SelectedItem is value type or not
+            </summary>
+            <returns>Boolean indicating whether value type</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetDisplayMemberPath">
+            <summary>
+            Gets the DisplayMemberPath value to be set for SuggestionBox.
+            </summary>
+            <returns>The DisplayMemberPath value.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetMaximumSuggestions(System.Collections.ICollection)">
+            <summary>
+            MaximumSuggestion Method
+            </summary>
+            <param name="load">collection type</param>
+            <returns>collection</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.RemoveContentFromParent(System.Collections.Generic.List{System.Object})">
+            <summary>
+            Remove content from parent view.
+            </summary>
+            <param name="previousSuggestions">The suggestions.</param>
+        </member>
+        <member name="E:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreTapped">
+            <summary>
+            LoadMoreTapped event handler
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnLoadMoreTapped(Windows.UI.Xaml.DependencyObject,System.EventArgs)">
+            <summary>
+            LoadMore tap method
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnLoadMoreTapped(System.EventArgs)">
+            <summary>
+            Trigger the load more event
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.LoadMoreSuggestions(System.Collections.IEnumerable,System.Int32)">
+            <summary>
+            Sets more number suggestions in Suggestions property.
+            </summary>
+            <param name="suggestions">The suggestions source</param>
+            <param name="suggestionsCount">Number of suggestions to be added</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ReturnDiacriticsRemovedString(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+            <param name="diacritic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSelectionChanging(Syncfusion.XForms.UWP.ComboBox.SelectionChangingEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetTemplete">
+            <summary>
+            Sets control template when MultiselectMode and TokensWrapMode is changed.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.RemoveAlreadySelectedItemFromSuggestions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSuggestions(Syncfusion.XForms.UWP.ComboBox.FilterModel)">
+            <summary>
+            
+            </summary>
+            <param name="filterModel"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowNoResultsFound">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NoResultsFoundCustomization">
+            <summary>
+            Adds the no results found customization.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.InitializeAppend(Syncfusion.XForms.UWP.ComboBox.FilterModel)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.FilterSuggestions">
+            <summary>
+            Filters the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/> based the
+            text.
+            </summary>
+            <remarks>
+            The Return value is void.
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSuggestionsChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the Suggestions have changed.
+            </summary>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnCompleted(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when press the Enter key
+            </summary>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSelectedItemChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Occurs when the Selected Item has changed.
+            </summary>
+            <param name="args">Dependency property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SubscribeCollectionChangedEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateScrollViewer">
+            <summary>
+            Update scroll viewer method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateText">
+            <summary>
+            Update text method
+            </summary>
+            <returns>split text</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OpenSuggestion">
+            <summary> 
+            Open Suggestion method
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateSuggestionBox">
+            <summary>
+            Update suggestion box method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateAutoSuggestionBoxPlacement">
+            <summary>
+            To Update the Auto SuggestionBox Placement
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSuggestionBoxYPosition(System.Double)">
+            <summary>
+            Set the Y position for the suggestion box
+            </summary>
+            <param name="suggestionBoxActualHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateHighlightColor(System.Boolean)">
+            <summary>
+            Highlights the matching item in dropdown.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateMultiselectDeleteButtonVisibility">
+            <summary>
+            Updates the visibility of multi selection delete button 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateDeleteButtonVisiblityOnNonEditiableMode">
+            <summary>
+            Update delete button visiblity in non-editable mode.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnAutomationIdChanged">
+            <summary>
+            On AutomationId changed method
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnPointerPressed(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Occurs when the pointer is pressed
+            </summary>
+            <param name = "e" > Pointer Routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnPointerReleased(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Occurs when the pointer is released
+            </summary>
+            <param name="e">Mouse button event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnKeyUp(Windows.UI.Xaml.Input.KeyRoutedEventArgs)">
+            <summary>
+            Occures when the key is released.
+            </summary>
+            <param name="e"> Key routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnKeyDown(Windows.UI.Xaml.Input.KeyRoutedEventArgs)">
+            <summary>
+            Occurs when the key is pressed
+            </summary>
+            <param name = "e" > Key routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HandleAppend(Windows.System.VirtualKey)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateSize(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="height"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HandleUpKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HandleDownKey">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HandleDelimiterTextChange(System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DownOrUpKeyPressed">
+            <summary>
+            Method called when down or up key pressed in keyboard.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.StartTimer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.StartFiltering">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSelectedValue(System.StringComparison,System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="stringComparison"></param>
+            <param name="list"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetDropdownWidth">
+            <summary>
+            Sets the width for Dropdown based on DropDownWidth property and rendered size.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AlignDropDownHeaderFooter">
+            <summary>
+            Aligns the header in drop down.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ClearAllTokens">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiSelectionSelectionChangedEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SelectionChangingEventHandler">
+            <summary>
+            SelectionChangingEventHandler event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownClosing">
+            <summary>
+            Dropdown closing event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event args.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SfComboBox_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Content_Tapped(System.Object,Windows.UI.Xaml.Input.TappedRoutedEventArgs)">
+            <summary>
+            Occurs when tapped the windows
+            </summary>
+            <param name = "sender" > Object type</param>
+            <param name = "e" > Tapped routed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SuggestionChanged(System.Object,Windows.UI.Xaml.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Suggestion Changed method.
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Selection changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnTextChanged(System.Object,Windows.UI.Xaml.Controls.TextChangedEventArgs)">
+            <summary>
+            On text changed method
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Text changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButton_Clicked(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Filters suggestion and opens the drop down with filtered suggestions.
+            </summary>
+            <param name="sender">The original source</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MultiselectionDeleteButton_Clicked(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SfTextBoxExt_Loaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Text box Loaded
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SfTextBoxExt_Unloaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Text box Un loaded
+            </summary>
+            <param name="sender">object type</param>
+            <param name="e">Routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Dispose">
+            <summary>
+            Method for disposing unwanted objects
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Dispose(System.Boolean)">
+            <summary>
+            Dispose method
+            </summary>
+            <param name="disposing">boolean type</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnGotFocus(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Occurs when focus is obtained.
+            </summary>
+            <param name="e">Routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateClearButtonMargin">
+            <summary>
+            Set the Clear Button Margin based on DropDownIcon
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnLostFocus(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Occurs when focus is lost.
+            </summary>
+            <param name="e">Routed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnApplyTemplate">
+            <summary>
+            Initialize all the child elements of
+            <see cref="T:Syncfusion.XForms.UWP.ComboBox.TextBoxExt"/> control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DeleteButton_Click(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Delete button event
+            </summary>
+            <param name="sender">object type</param>
+            <param name="e">e as object</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Popup_Closed(System.Object,System.Object)">
+            <summary>
+            Popup closed event
+            </summary>
+            <param name="sender">object type</param>
+            <param name="e">e as object</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.Popup_Opened(System.Object,System.Object)">
+            <summary>
+            Popup opened event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event args.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.PART_Watermark_LayoutUpdated(System.Object,System.Object)">
+            <summary>
+            Part Water mark Layout updated
+            </summary>
+            <param name="sender">object type</param>
+            <param name="e">e as object</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SetSuggestionsOnTap">
+            <summary>
+            Updates the suggestions when ComboBox entry area or dropdown button is tapped.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.RestrictPopUp">
+            <summary>
+            Restricted the pop up opened suggestion box placement is none
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetFilteredResult">
+            <summary>
+            Filters the ComboBoxSource with typed text based on SuggestionMode, IgnoreDiacritic APIs.
+            </summary>
+            <returns>The filtered result</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.NeedsTemplateChange(Syncfusion.XForms.UWP.ComboBox.MultiSelectMode,Syncfusion.XForms.UWP.ComboBox.MultiSelectMode)">
+            <summary>
+            Indicates whether control template need to be changed or not.
+            </summary>
+            <param name="oldValue">The previous multiselect mode</param>
+            <param name="newValue">The new multiselect mode</param>
+            <returns>a boolean</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ShowOrHideCustomView">
+            <summary>
+            Shows or hides the template elements based on multiselect mode.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ApplyTheme">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdtaeTokenSettings">
+            <summary>
+            Update token settings.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateTokenTopPadding">
+            <summary>
+            Update token top padding.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.UpdateWatermark">
+            <summary>
+            Update water mark method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnWatermarkChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            On water Mark changed method
+            </summary>
+            <param name="d">Dependency object</param>
+            <param name="e">Dependency property changed events args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.PopupTimerTick(System.Object,System.Object)">
+            <summary>
+            Popup Timer Tick Method
+            </summary>
+            <param name="sender">Object type</param>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetStringFromSearchItemPath(System.Object,System.String,System.Boolean)">
+            <summary>
+            Get String from search item patch method.
+            </summary>
+            <param name="item">object type.</param>
+            <param name="path">string type</param>
+            <returns>item value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MatchPropertyInfo(System.Reflection.PropertyInfo,System.String)">
+            <summary>
+            Match property Info method.
+            </summary>
+            <param name="info">Property info type</param>
+            <param name="path">String type</param>
+            <returns>boolean value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AppendText">
+            <summary>
+            Append text method.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.AppendText(System.String,System.String)">
+            <summary>
+            Append Text Method
+            </summary>
+            <param name="originaltext">String type</param>
+            <param name="appendtext">Append text</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.BeginFilter(Syncfusion.XForms.UWP.ComboBox.ComboBoxMode,Syncfusion.XForms.UWP.ComboBox.SuggestionMode,System.Collections.IEnumerable,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Begin Filter method.
+            </summary>
+            <param name="ComboBoxMode">ComboBox complete mode</param>
+            <param name="suggestionMode">Suggestion mode</param>
+            <param name="source">Enumerable type</param>
+            <param name="path">path value</param>
+            <param name="text">string type</param>
+            <param name="delimeter">delimiter value</param>
+            <returns>task value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.ApplySuggestionMode(Syncfusion.XForms.UWP.ComboBox.ComboBoxMode,Syncfusion.XForms.UWP.ComboBox.SuggestionMode,System.Collections.IEnumerable,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Apply suggestion mode
+            </summary>
+            <param name="comboBoxMode">Auto complete mode</param>
+            <param name="suggestionMode">Suggestion mode</param>
+            <param name="source">Enumerable type</param>
+            <param name="path">path value</param>
+            <param name="text">String type</param>
+            <param name="delimeter">Delimiter value</param>
+            <returns>return model</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetStartsWithFilteredItems(System.Collections.IEnumerable,Syncfusion.XForms.UWP.ComboBox.SuggestionMode,System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <param name="suggestionMode"></param>
+            <param name="text"></param>
+            <param name="path"></param>
+            <param name="ignoreDiacritic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.GetFilteredSuggestions(System.Collections.IEnumerable,System.String,System.StringComparison,System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.OnSfComboBoxPropertiesChanged(System.String,Syncfusion.XForms.ComboBox.SfComboBox,Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer)">
+            <summary>
+            
+            </summary>
+            <param name="propertyName"></param>
+            <param name="formsComboBox"></param>
+            <param name="comboBoxRenderer"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SubscribeCollectionChangedEvents(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventHandler)">
+            <summary>
+            Subscribes the when Collection Changed.
+            </summary>
+            <param name="source">source</param>
+            <param name="eventHandler">Notify collection changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.HandleNotifyCollectionChangedEventHandler(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Notifies the when Colletion changed.
+            </summary>
+            <param name="sender">sender</param>
+            <param name="e">Notify collection changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.SfComboBoxsource_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Combobox collection changed
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">Notify collection changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.TokenSettings_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Invoke the event when token settings changed
+            </summary>
+            <param name="sender">Token settings</param>
+            <param name="e">Property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.DropDownButtonSettings_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Invoke the event when drop down button settings changed
+            </summary>
+            <param name="sender">Drop down button settings</param>
+            <param name="e">Property changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBox.MeasureOverride(Windows.Foundation.Size)">
+            <summary>
+            Measures the size of the child element.
+            </summary>
+            <param name="availableSize">Available size.</param>
+            <returns>Returns the measured child size.</returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.FilterModel">
+            <summary>
+            Represents a class for the Filter Model.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.FilterModel.Suggestions">
+            <summary>
+            Gets or sets the Suggestions.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.FilterModel.Appends">
+            <summary>
+            Gets or sets the Appends.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.ItemViewConverter">
+            <summary>
+            Represents a class for the ItemViewConverter.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.ItemViewConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Represents a object for the ItemViewConverter Convert.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.ItemViewConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Represents a object for the ItemViewConverter ConvertBack.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods">
+            <summary>
+            Represents the class with implementations of methods in SfComboBox for UWP platform.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.Syncfusion#XForms#ComboBox#ILoadMoreItems#LoadMoreItems">
+            <summary>
+            Loads more number of suggestions in Suggestions property based on MaximumSuggestion property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.Syncfusion#XForms#ComboBox#ILoadMoreItems#LoadMoreItems(Syncfusion.XForms.ComboBox.SfComboBox)">
+            <summary>
+            Loads more number of suggestions in Suggestions property based on MaximumSuggestion property.
+            </summary>
+            <param name="formsComboBox">Instance of Xamarin.Forms SfComboBox</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.Syncfusion#XForms#ComboBox#ILoadMoreItems#LoadMoreItems(Syncfusion.XForms.ComboBox.SfComboBox,System.Int32)">
+            <summary>
+            Loads more number of suggestions in dropdown based on specified count.
+            </summary>
+            <param name="formsComboBox">Instance of Xamarin.Forms SfComboBox</param>
+            <param name="maximumSuggestions">Number of more suggestions to be loaded.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.FocusControl">
+            <summary>
+            Sets programmatic focus for the native SfComboBox.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.SetSelectionStart(System.Int32)">
+            <summary>
+            Sets the SelectionStart property for the native SfComboBox.
+            </summary>
+            <param name="position">The index position</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxMethods.LoadMoreSuggestions">
+            <summary>
+            Loads more suggestions based on MAximumSuggestion property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SelectionChangingEventArgs">
+            <summary>
+            Represents class for SelectionChangingEventArgs.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.SelectionChangingEventArgs.Value">
+            <summary>
+            Represents object for SelectionChangingEventArgs Value.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SelectionChangingEventArgs.#ctor">
+            <summary>
+            Represents SelectionChangingEventArgs constructor.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.DropDownCancelEventArgs">
+            <summary>
+            Represents class for SelectionChangingEventArgs.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownCancelEventArgs.IsItemSelected">
+            <summary>
+            Gets a value indicating whether value of the item selection.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings">
+            <summary>
+            Represents the settings for drop down button in SfComboBox control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.ViewProperty">
+            <summary>
+            Gets or sets the view for dropdown button. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontIconColorProperty">
+            <summary>
+            Gets or sets the font icon color for dropdown button. This is a dependency property.
+            </summary>    
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.BackgroundColorProperty">
+            <summary>
+            Gets or sets the background color for dropdown button. This is a dependency property.
+            </summary>    
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.HighlightFontColorProperty">
+            <summary>
+            Gets or sets the highlight font color for dropdown button. This is a dependency property.
+            </summary>    
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.HighlightedBackgroundColorProperty">
+            <summary>
+            Gets or sets the highlighted background color for dropdown button. This is a dependency property.
+            </summary>    
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.WidthProperty">
+            <summary>
+            Gets or sets the width of dropdown button. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.HeightProperty">
+            <summary>
+            Gets or sets the height of dropdown button. This is a dependency property.
+            </summary>       
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontIconProperty">
+            <summary>
+            Gets or sets the font icon for dropdown button. This is a dependency property.
+            </summary>   
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontFamilyProperty">
+            <summary>
+            Gets or sets the font family for dropdown button. This is a dependency property.
+            </summary>     
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontSizeProperty">
+            <summary>
+            Gets or sets the font size for dropdown button. This is a dependency property.
+            </summary>      
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.ImageProperty">
+            <summary>
+            Gets or sets the image for dropdown button. This is a dependency property.
+            </summary>      
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings" /> class
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.View">
+            <summary>
+            Gets or sets the view for drop down button. 
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontIconColor">
+            <summary>
+            Gets or sets the font icon color for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.BackgroundColor">
+            <summary>
+            Gets or sets the background color for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.HighlightedBackgroundColor">
+            <summary>
+            Gets or sets the highlighted background color for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.HighlightFontColor">
+            <summary>
+            Gets or sets the highlighted font color for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.Width">
+            <summary>
+            Gets or sets the width for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.Height">
+            <summary>
+            Gets or sets the height for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontIcon">
+            <summary>
+            Gets or sets the font icon for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontFamily">
+            <summary>
+            Gets or sets the font family for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.FontSize">
+            <summary>
+            Gets or sets the font size for drop down button.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettings.Image">
+            <summary>
+            Gets or sets the image for drop down button.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.TokenPanel">
+            <summary>
+            Represents the class for multi selection panel in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.comboBox">
+            <summary>
+            The instance of SfComboBox class
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.multiPanelWidth">
+            <summary>
+            Gets the multi panel width.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.multiPanelSize">
+            <summary>
+            Gets the size of the multi panel item.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.deleteButtonWidth">
+            <summary>
+            This value is reduced from actual width and arrange the multi panel.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.defaultTokenHeight">
+            <summary>
+            This value is reduced from actual width and arrange the multi panel.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.selectedItemsWidth">
+            <summary>
+            Gets the value of selected item width.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.xPosition">
+            <summary>
+            Gets the value of multi panel item x position
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.yPosition">
+            <summary>
+            Gets the value of multi panel item y position
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.paddingSize">
+            <summary>
+            Padding Size
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.InputLayoutSize">
+            <summary>
+            Layout is TextInput.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenPanel.OrientationProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Orientation1.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenPanel.Orientation">
+            <summary>
+            Gets the orientation for MultiselectionPanel
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.Dispose">
+            <summary>
+            Disposes the control while unloading
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.Dispose(System.Boolean)">
+            <summary>
+            Dispose method
+            </summary>
+            <param name="disposing">boolean type</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.ArrangeOverride(Windows.Foundation.Size)">
+            <summary>
+            ArrangeOverride method
+            </summary>
+            <param name="finalSize">panel size</param>
+            <returns>children Position in panel</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.MeasureOverride(Windows.Foundation.Size)">
+            <summary>
+            MeasureOverride method
+            </summary>
+            <param name="availableSize">panel available size</param>
+            <returns>width and height of the panel</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.ArrangeMultiPanel(Windows.UI.Xaml.UIElement,System.Double,System.Double)">
+            <summary>
+            Arrange the child in multi panel
+            </summary>
+            <param name="child"> Children of the multi panel</param>
+            <param name="xAxis">Child x position</param>
+            <param name="yAxis">Child y position</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenPanel.AddItemWidth(System.Double)">
+            <summary>
+            Gets the width of selected items in multi panel
+            </summary>
+            <param name="itemWidth">Multi panel child width</param>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SuggestionBox">
+            <summary>
+            Represents the dropdown for displaying suggestions in comboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.scrollViewer">
+            <summary>
+            Gets or sets the instance of ScrollViewer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.comboBox">
+            <summary>
+            Gets or sets the instance of comboBox
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.isScrollViewer">
+            <summary>
+            Flag to indicate the control is ScrollViewer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.selectedItem">
+            <summary>
+            Gets or sets the instance of listboxitem.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.selectedItemCollection">
+            <summary>
+            Temporarily stores the selected item collection
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.noResultFoundItemHeight">
+            <summary>
+            Default height of the no results found item
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.paddingFactor">
+            <summary>
+            Default padding factor for the suggestion item height
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.#ctor">
+            <summary>
+            Initializes a new instance of the SuggestionBox class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.Dispose">
+            <summary>
+            Disposes the control while unloading
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.Dispose(System.Boolean)">
+            <summary>
+            Disposes the visual elements and unhooks the event handler methods
+            </summary>
+            <param name="disposing">boolean type</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject,System.Object)">
+            <summary>
+            Prepare container for item override
+            </summary>
+            <param name="element">Dependency object</param>
+            <param name="item">object type</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.FindChildren(Windows.UI.Xaml.DependencyObject,System.String)">
+            <summary>
+            Find the ListBoxItem children.
+            </summary>
+            <param name="parant">The parent.</param>
+            <param name="ControlName">The control name.</param>
+            <returns>The return value.</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.SuggestionBox_Tapped(System.Object,Windows.UI.Xaml.Input.TappedRoutedEventArgs)">
+            <summary>
+            Invoked when SuggestionBox is Tapped
+            </summary>
+            <param name="sender">The sender</param>
+            <param name="e">Tapped routed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.Listboxitem_Loaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Invoked when ListBoxItem is loaded
+            </summary>
+            <param name="sender">The sender</param>
+            <param name="e">Routed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.Listboxitem_DataContextChanged(System.Object,Windows.UI.Xaml.DataContextChangedEventArgs)">
+            <summary>
+            Invoked when ListBoxItem DataContext is changed
+            </summary>
+            <param name="sender">The sender</param>
+            <param name="e">Routed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.Listboxitem_Unloaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Invoked when ListBoxItem is loaded
+            </summary>
+            <param name="sender">The sender</param>
+            <param name="e">Routed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.TextBlock_Loaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Invoked when TextBlock is loaded
+            </summary>
+            <param name="sender">The sender object</param>
+            <param name="e">Event arguments for Loaded event</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.TextBlock_DataContextChanged(Windows.UI.Xaml.FrameworkElement,Windows.UI.Xaml.DataContextChangedEventArgs)">
+            <summary>
+            Invoked when DataContext of TextBlock changes
+            </summary>
+            <param name="sender">The sender object</param>
+            <param name="e">Event arguments for DataContextChanged event</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.SuggestionBox_SelectionChanged(System.Object,Windows.UI.Xaml.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Suggestion box selection changed method
+            </summary>
+            <param name="sender">object type</param>
+            <param name="e">Selection changed event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.SubscribeListBoxItemEvents(Windows.UI.Xaml.Controls.ListBoxItem)">
+            <summary>
+            Subscribes the list box item events
+            </summary>
+            <param name="listBoxItem"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.HighlightMatchedCharacters(Windows.UI.Xaml.Controls.TextBlock,System.Boolean)">
+            <summary>
+            Hightlights the character in string
+            </summary>
+            <param name="textBlock">The TextBlock</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.GetHighlightedSubstring(System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="backupText"></param>
+            <param name="startIndex"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.GetStringFromSearchItemPath(System.Object,System.String,System.Boolean)">
+            <summary>
+            Returns the value of a field from object
+            </summary>
+            <param name="item">The object item</param>
+            <param name="path">The search item path</param>
+            <returns>The output value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.GetIndexOf(System.String,System.String,System.Int32)">
+            <summary>
+            Returns the location of the first Occurrence of a letter or substring.
+            </summary>
+            <param name="text">The text</param>
+            <param name="search">Letter or substring</param>
+            <param name="startIndex">Starting index</param>
+            <returns>The first index of a letter or substring</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.GetLastIndexOf(System.String,System.String)">
+            <summary>
+            Returns the location of the last Occurrence of a letter or substring.
+            </summary>
+            <param name="text">The text</param>
+            <param name="search">Letter or substring</param>
+            <returns>The last index of a letter or substring</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.FindScrollViewer(Windows.UI.Xaml.UIElement)">
+            <summary>
+            Find scroll viewer method
+            </summary>
+            <param name="rootElement">UI element</param>
+            <returns>return result</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.SetComboBoxSelectedItemProperty(System.Object)">
+            <summary>
+            Updates the SelectedItem property with recently selected item 
+            </summary>
+            <param name="item">The selected item</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.GetSuggestionIndex(System.Object)">
+            <summary>
+            Obtains the suggestion index from ComboBoxSource and returns it.
+            </summary>
+            <param name="item">The selected item</param>
+            <returns>The index of selected item</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SuggestionBox.FindVisualChildrenOfType``1(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Finds visual children of a type in visual tree
+            </summary>
+            <typeparam name="T">The type</typeparam>
+            <param name="parent">The parent element</param>
+            <returns>The list items found in visual tree</returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.TokenItem">
+            <summary>
+            Represents the token for multiselection mode in SfComboBox control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.comboBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.dataContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.isSelected">
+            <summary>
+            Indicates whether the token item is selected or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.tokenBorder">
+            <summary>
+            Gets the token border value
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.tokenTextBlock">
+            <summary>
+            Gets the token textBlock value
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.tokenButtonContent">
+            <summary>
+            Gets the token deleteButton value
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.tokenGrid">
+            <summary>
+            Gets the value of grid outside the token
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.tokenImage">
+            <summary>
+            Gets the value of image for token
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.closeButton">
+            <summary>
+            Token Border
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.selectedItemCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.deleteButtonWidth">
+            <summary>
+            Default token deleteButton width size
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.#ctor(Syncfusion.XForms.UWP.ComboBox.SfComboBox)">
+            <summary>
+            
+            </summary>
+            <param name="combobox"></param>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.ImageProperty">
+            <summary>
+            Gets or sets the image of token. It is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenItem.ItemProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Item.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenItem.Item">
+            <summary>
+            Gets or sets the token item text.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenItem.Image">
+            <summary>
+            Gets or sets the token item image.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenItem.IsSelected">
+            <summary>
+            Gets or sets a value indicating whether the token item is selected.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.OnApplyTemplate">
+            <summary>
+            Initializes the elements in the template of token item.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.TokenCloseButton_Click(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.Dispose(System.Boolean)">
+            <summary>
+            When control is disposed clear the all object in token item class
+            </summary>
+            <param name="disposing">If disposing is true clear the object in token item</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.UpdateTokenSettings">
+            <summary>
+            Updates the TokenItem with the TokenSettings. 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.TokenItem.UpdateTokenBackground">
+            <summary>
+            Applies background for the TokenItem based on IsSelected property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.TokenSettings">
+            <summary>
+            Represents the settings for token item in SfComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.DeleteButtonPlacementProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for ButtonPlacement.  This enables animation, styling, binding, etc...
+            </summary>       
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.BackgroundProperty">
+            <summary>
+            Gets or sets the background of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.ForegroundProperty">
+            <summary>
+            Gets or sets the foreground of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.FontSizeProperty">
+            <summary>
+            Gets or sets the font size of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.FontFamilyProperty">
+            <summary>
+            Gets or sets the font family of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.DeleteButtonColorProperty">
+            <summary>
+            Gets or sets the delete button color of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.ShowDeleteButtonProperty">
+            <summary>
+            Gets or sets the property indicating whether the delete button is shown in token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.CornerRadiusProperty">
+            <summary>
+            Gets or sets the CornerRadius for token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokenSettings.SelectedBackgroundProperty">
+            <summary>
+            Gets or sets the selected background of token item. This is a dependency property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.Background">
+            <summary>
+            Gets or sets the background of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.Foreground">
+            <summary>
+            Gets or sets the foregrond of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.FontSize">
+            <summary>
+            Gets or sets the font size of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.FontFamily">
+            <summary>
+            Gets or sets the font family of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.DeleteButtonColor">
+            <summary>
+            Gets or sets the delete button color of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.ShowDeleteButton">
+            <summary>
+            Gets or sets the property indicating whether the delete button is shown in token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.CornerRadius">
+            <summary>
+            Gets or sets the corner radius for the token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.SelectedBackground">
+            <summary>
+            Gets or sets the selected background of token item.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.XForms.UWP.ComboBox.TokenSettings.DeleteButtonPlacement">
+            <summary>
+            Gets or Sets the placement of DeleteButton
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.BooleanToVisibilityConverter">
+            <summary>
+            Represents the converter for boolean to visibility value converter.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.BooleanToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts boolean value to visibility value
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="language"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.BooleanToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the visibility back to its default form
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="language"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.ItemToVisibilityConverter">
+            <summary>
+            Represents the class for converting item to visibility converter.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.ItemToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the list box item data context to selection indicator visibility. Also converts list box item ImageMemberPath to ImageSource.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="language"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.ItemToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the target type back to its default type.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="language"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.DoubleToCornerRadiusConverter">
+            <summary>
+            Represents the value converter between double and CornerRadius. 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.DoubleToCornerRadiusConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the double value to CornerRadius
+            </summary>
+            <param name="value">the value</param>
+            <param name="targetType">the targetType</param>
+            <param name="parameter">the parameter</param>
+            <param name="language">the language</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.DoubleToCornerRadiusConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the CornerRadius value to double
+            </summary>
+            <param name="value">the value</param>
+            <param name="targetType">the </param>
+            <param name="parameter">the paramater</param>
+            <param name="language">the language</param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettingsObjectToVisibilityConverter">
+            <summary>
+            Represents the converter for DropDownButtonSettings to visibility value.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettingsObjectToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+             Converts the dropdownbutton settings to actual value for binsding in XAML. 
+            </summary>
+            <param name="value">value </param>
+            <param name="targetType">target type</param>
+            <param name="parameter">object as parameter</param>
+            <param name="language">string as language</param>
+            <returns>convert value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettingsObjectToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the target type back to its default type. 
+            </summary>
+            <param name="value">object type</param>
+            <param name="targetType">target type</param>
+            <param name="parameter">object as parameter</param>
+            <param name="language">string as language</param>
+            <returns>convert back value</returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.StringToFontFamilyConverter">
+            <summary>
+            Represents the value converter between string and FontFamily. 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.StringToFontFamilyConverter.Windows#UI#Xaml#Data#IValueConverter#Convert(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the string value to FontFamily
+            </summary>
+            <param name="value">the value</param>
+            <param name="targetType">the targetType</param>
+            <param name="parameter">the parameter</param>
+            <param name="language">the language</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.StringToFontFamilyConverter.Windows#UI#Xaml#Data#IValueConverter#ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <summary>
+            Converts the FontFamily value to string
+            </summary>
+            <param name="value">the value</param>
+            <param name="targetType">the </param>
+            <param name="parameter">the paramater</param>
+            <param name="language">the language</param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.ComboBoxMode">
+            <summary>
+            Represents the enumeration for ComboBoxMode.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxMode.None">
+            <summary>
+            Suggestion and append are not performed.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxMode.Append">
+            <summary>
+            Appends the suggested text.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxMode.Suggest">
+            <summary>
+            Displays all the suggestions in a dropdown.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxMode.SuggestAppend">
+            <summary>
+            Appends the suggested text and displays all the suggestions in a dropdown.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SuggestionBoxPlacement">
+            <summary>
+            Represents the placement of suggestion box in ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBoxPlacement.Auto">
+            <summary>
+            SuggestionBox is placed based on Position of ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBoxPlacement.Top">
+            <summary>
+            SuggestionBox is placed at top of ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBoxPlacement.Bottom">
+            <summary>
+            SuggestionBox is placed at bottom of ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionBoxPlacement.None">
+            <summary>
+            SuggestionBox is not shown in ComboBox.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SelectionType">
+            <summary>
+            Contains values for the Selection Type.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SelectionType.Default">
+            <summary>
+            The Selection Type Default is AutoSelect.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SelectionType.OnTap">
+            <summary>
+            The Selection Type is OnTap.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SuggestionMode">
+            <summary>
+            Represents the suggestion mode for ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.None">
+            <summary>
+            Returns the all the ComboBoxSource collection as suggestions
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.StartsWith">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.StartsWithCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.StartsWithOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.StartsWithOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.Contains">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.ContainsCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.ContainsOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.ContainsOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.Equals">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EqualsCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EqualsOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EqualsOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EndsWith">
+            <summary>
+            Returns the suggestions whether the ending of the string matches in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EndsWithCaseSensitive">
+            <summary>
+            Returns the suggestions whether the ending of the string matches in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EndsWithOrdinal">
+            <summary>
+            Returns the suggestions whether the ending of the string matches in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.EndsWithOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the ending of the string matches in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SuggestionMode.Custom">
+            <summary>
+            Returns the suggestion based on the custom filter result.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.OccurrenceMode">
+            <summary>
+            Represents the text highlighting mode for matched text based on its occurrence.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.OccurrenceMode.None">
+            <summary>
+            Matched text is not highlighted.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.OccurrenceMode.FirstOccurrence">
+            <summary>
+            First matching characters are highlighted.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.OccurrenceMode.MultipleOccurrence">
+            <summary>
+            All the matching characters are highlighted.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.MultiSelectMode">
+            <summary>
+            Represents the enumeration for Multiselection in ComboBox.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.MultiSelectMode.None">
+            <summary>
+            Allows to select single item.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.MultiSelectMode.Delimiter">
+            <summary>
+            Allows to select multiple items and they are separated by a Delimiter character.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.MultiSelectMode.Token">
+            <summary>
+            Allows to select multiple items and they are created as tokens and added in a panel.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.TokensWrapMode">
+            <summary>
+            Represents the enumeration for token wrapping mode in multiselection panel.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokensWrapMode.None">
+            <summary>
+            Tokens are arranged in horizontal orientation
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.TokensWrapMode.Wrap">
+            <summary>
+            Tokens arranged horizontal and wrapped to next line when it reaches the width.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.ComboBoxModes">
+            <summary>
+            Represents the enumeration for editable and non-editable mode.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxModes.NonEditableMode">
+            <summary>
+            Represents the non editable mode.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.ComboBoxModes.EditableMode">
+            <summary>
+            Represents the editable mode.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.DeleteButtonPlacement">
+            <summary>
+            Specify the placement of DeleteButton in token.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DeleteButtonPlacement.Left">
+            <summary>
+            The DeleteButton always placement left in token
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.DeleteButtonPlacement.Right">
+            <summary>
+            The DeleteButton always placement right in token
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer">
+            <summary>
+            Represents the renderer for SfComboBox control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.comboBox">
+            <summary>
+            The instance of Xamarin.Forms SfComboBox control.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.nativeComboBox">
+            <summary>
+            The instance of native SfComboBox control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.#ctor">
+            <summary>
+            Initializes a new instance of SfComboBoxRenderer class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.OnElementChanged(Xamarin.Forms.Platform.UWP.ElementChangedEventArgs{Syncfusion.XForms.ComboBox.SfComboBox})">
+            <summary>
+            Invoked when element is changed. Creates instance of native control and subscribes its events.
+            </summary>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.SetNativeObject(System.Type,System.Object,System.Object)">
+            <summary>
+            Sets the native object.
+            </summary>
+            <param name="type">Type.</param>
+            <param name="obj">Object.</param>
+            <param name="nativeObject">Native object.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.GetNativeObject(System.Type,System.Object)">
+            <summary>
+            Gets the native object.
+            </summary>
+            <returns>The native object.</returns>
+            <param name="type">Type.</param>
+            <param name="obj">Object.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_LoadMoreTapped(System.Object,System.EventArgs)">
+            <summary>
+            Trigger the forms load more event
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_ComboBoxTapped(System.Object,System.EventArgs)">
+            <summary>
+            Native comboBox tapped event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event args.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.ComboBox_SizeChanged(System.Object,System.EventArgs)">
+            <summary>
+             Size changed event
+            </summary>
+            <param name="sender">Sender value</param>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.ComboBox_BindingContextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Binding context changed event
+            </summary>
+            <param name="sender">sender value</param>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.Dispose(System.Boolean)">
+            <summary>
+            Method to remove the memory of unwanted objects. 
+            </summary>
+            <param name="disposing">boolean type</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SelectionChanging(System.Object,Syncfusion.XForms.UWP.ComboBox.SelectionChangingEventArgs)">
+            <summary>
+            Raises the SelectionChanging event for Xamarin.Forms SfComboBox
+            </summary>
+            <param name="sender">The native ComboBox</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_MultiSelectionSelectionChanged(System.Object,Syncfusion.XForms.UWP.ComboBox.MultiSelectionSelectionChangedEventArgs)">
+            <summary>
+            Raises the SelectionChanged event for Xamarin.Forms SfComboBox
+            </summary>
+            <param name="sender">The native ComboBox</param>
+            <param name="e">Event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.ConvertFormsToNativeView(Xamarin.Forms.View,Syncfusion.XForms.ComboBox.SfComboBox,Xamarin.Forms.Rectangle)">
+            <summary>
+            Converts the Xamarin.Forms View to native FrameworkElement
+            </summary>
+            <param name="view">Xamarin.Forms View</param>
+            <param name="formsComboBox">Instance of Xamarin.Forms ComboBox</param>
+            <param name="bounds">The rectangular bounds</param>
+            <returns>FrameworkElement</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.ConvertToNative(Xamarin.Forms.View,Xamarin.Forms.Element)">
+            <summary>
+            Converts the Xamarin.Forms View to native IVisualElementRenderer
+            </summary>
+            <param name="view">Xamarin.Forms View</param>
+            <param name="control">Xamarin.Forms control</param>
+            <returns>IVisualElementRenderer</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SizeChanged(System.Object,Windows.UI.Xaml.SizeChangedEventArgs)">
+            <summary>
+            Refreshes the custom view when control size changes.
+            </summary>
+            <param name="sender">The native ComboBox</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SuggestionsChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Raises the FilterCollectionChanged event of Xamarin.Forms SfComboBox.
+            </summary>
+            <param name="d">The sender</param>
+            <param name="e">Dependency property changed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SuggestionPopupOpened(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Raises the ComboBox DropDownOpened event
+            </summary>
+            <param name="d">The dependency object</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SuggestionPopupClosed(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Raises the ComboBox DropDownClosed event
+            </summary>
+            <param name="d">The dependency object</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_Completed(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Raises the ComboBox Completed event
+            </summary>
+            <param name="d">The dependency object</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_GotFocus(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Raises the ComboBox FocusChanged when native control receives event
+            </summary>
+            <param name="d">The dependency object</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_LostFocus(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            Raises the ComboBox FocusChanged when native control loses event
+            </summary>
+            <param name="d">The dependency object</param>
+            <param name="e">The event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.RaiseFocusChangedEvent(System.Boolean)">
+            <summary>
+            Helper method to trigger FocusChanged event
+            </summary>
+            <param name="isFocused">The value indicating whether control is focused or not</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBox_SelectedItemChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Sets the Xamarin.Forms SfComboBox SelectedItem property when native SfComboBox property changes.
+            </summary>
+            <param name="dependencyObject">The sender</param>
+            <param name="e">Dependency property changed event arguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.SetPropertyValue(System.Type,System.String,System.Object,System.Object)">
+            <summary>
+            Sets value for the property using Reflection which cannot be assigned directly.
+            </summary>
+            <param name="type"></param>
+            <param name="propertyName"></param>
+            <param name="instance"></param>
+            <param name="propertyValue"></param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.SetSelectedValueAndRaiseEvent(System.Object,System.Object)">
+            <summary>
+            Sets the SelectedItem property and raises the SelectionChanged event of Xamarin.Forms control.
+            </summary>
+            <param name="selectionChangedEventArgs">The selection changed event arguments.</param>
+            <param name="propertyValue">The property value.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.NativeComboBoxOnTextChanged(System.Object,Windows.UI.Xaml.Controls.TextChangedEventArgs)">
+            <summary>
+            Sets the Test property of Xamarin.Forms SfComboBox based on the native ComboBox value.
+            </summary>
+            <param name="sender">The sender of event</param>
+            <param name="textChangedEventArgs">Event aruguments</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.TriggerInternalMethod(System.Type,System.Object,System.String,System.Object[])">
+            <summary>
+            Triggers the internal method of Xamarin.Forms control.
+            </summary>
+            <param name="type">The type which has the method to be invoked.</param>
+            <param name="obj">The object which invokes the method.</param>
+            <param name="methodName">The name of the method which is going to be invoked.</param>
+            <param name="args">The arguments for the method.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.SetInternalProperty(System.Type,System.Object,System.String,System.Object,Syncfusion.XForms.ComboBox.SfComboBox)">
+            <summary>
+            Sets the internal property of a class using Reflection
+            </summary>
+            <param name="type">The type which has the property to be set.</param>
+            <param name="obj">The object which invokes the method.</param>
+            <param name="propertyName">The name of the method which is going to be invoked.</param>
+            <param name="value">The value to be set for the property.</param>
+            <param name="formsComboBox">The instance of Xamarin.Forms ComboBox.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Maps all the native control properties with Xamarin.Forms control properties.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">E.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.GetPropertyValue(System.Object,System.Reflection.TypeInfo,System.String)">
+            <summary>
+            Returns the value of a property using its type.
+            </summary>
+            <param name="selectedObject">Selected object</param>
+            <param name="info">Type information</param>
+            <param name="propertyName">Property name</param>
+            <returns>The property value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.IsValueType(System.Object)">
+            <summary>
+            Returns a boolean value indicating whether SelectedItem is value type or not
+            </summary>
+            <returns>Boolean indicating whether it is value type</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.IsNotNullAndValid(System.Object)">
+            <summary>
+            Checks whether the object is valid and collection has items
+            </summary>
+            <param name="selectedObject">The actual object</param>
+            <returns>boolean value</returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.GenerateTextFromSelectedItem(System.Collections.IList,System.String,System.String)">
+            <summary>
+             Generates Text from list of SelectedItem with Delimiters.
+            </summary>
+            <param name="selectedItem">The selected item from which text is generated.</param>
+            <param name="delimiter">The delimiter character to be added between selected items.</param>
+            <param name="dispalyMemberPath">The field in business class which is displayed.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.GetPropertiesChanged(System.Type,System.Object)">
+            <summary>
+            Adds all the property names to a collection.
+            </summary>
+            <returns>The properties changed.</returns>
+            <param name="type">Type.</param>
+            <param name="obj">Object.</param>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer.Init">
+            <summary>
+            Represents initilaiser class for SfComboBoxRenderer.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.XForms.UWP.combobox.Syncfusion_SfComboBox_XForms_UWP_XamlTypeInfo.XamlMetaDataProvider">
+            <summary>
+            Main class for providing metadata for the app or library
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.combobox.Syncfusion_SfComboBox_XForms_UWP_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)">
+            <summary>
+            GetXamlType(Type)
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.combobox.Syncfusion_SfComboBox_XForms_UWP_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)">
+            <summary>
+            GetXamlType(String)
+            </summary>
+        </member>
+        <member name="M:Syncfusion.XForms.UWP.combobox.Syncfusion_SfComboBox_XForms_UWP_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions">
+            <summary>
+            GetXmlnsDefinitions()
+            </summary>
+        </member>
+    </members>
+</doc>

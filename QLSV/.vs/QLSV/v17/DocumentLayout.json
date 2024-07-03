@@ -1,0 +1,1279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\quanlisv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\quanlisv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\quanlisv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\quanlisv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suadiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suadiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\quanligv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\quanligv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\quanligv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\quanligv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\lopvakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\lopvakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|c:\\users\\admin\\source\\repos\\webapplication1\\qlsv\\qlsv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\lopvakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\lopvakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\doimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\doimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\qmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\qmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suadiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suadiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\diemsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\diemsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suagv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suagv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suahp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suahp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\diemsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\diemsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\hocphan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\hocphan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suahp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suahp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suahp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suahp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suakhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\sualop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\profilegv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\profilegv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suagv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suagv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\taichinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\taichinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\profilegv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\profilegv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\thongtindiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\thongtindiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\thongtindiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\thongtindiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\qmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\qmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\taichinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\taichinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\chitietlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\chitietlop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\hocphan.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\hocphan.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\doimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\doimk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\form3.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\form3.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\hoc_phan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\hoc_phan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\du_andataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\du_andataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\du_andataset4.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\du_andataset4.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\du_andataset7.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\du_andataset7.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\sualop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\sualop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themlop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themlop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\themlop.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\themlop.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\edit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\edit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\qlsv\\suagv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D945E-215C-40D6-AF0D-089FFC54B9B9}|QLSV\\QLSV.csproj|solutionrelative:qlsv\\suagv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "suagv.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.cs",
+              "RelativeDocumentMoniker": "QLSV\\suagv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.cs",
+              "RelativeToolTip": "QLSV\\suagv.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAjwJQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:15:16.42Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "suadiem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suadiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\suadiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suadiem.cs",
+              "RelativeToolTip": "QLSV\\suadiem.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA7wCUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:44:59.604Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form3.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.cs",
+              "RelativeToolTip": "QLSV\\Form3.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T07:16:34.435Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form1.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form1.cs",
+              "RelativeToolTip": "QLSV\\Form1.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:54:36.144Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "themdiem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\themdiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.cs",
+              "RelativeToolTip": "QLSV\\themdiem.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAkwG0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:08:36.797Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "themhp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themhp.cs",
+              "RelativeDocumentMoniker": "QLSV\\themhp.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themhp.cs [Design]",
+              "RelativeToolTip": "QLSV\\themhp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:37:52.912Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "quanliGV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliGV.cs",
+              "RelativeDocumentMoniker": "QLSV\\quanliGV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliGV.cs [Design]",
+              "RelativeToolTip": "QLSV\\quanliGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:39:30.094Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "quanliGV.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliGV.cs",
+              "RelativeDocumentMoniker": "QLSV\\quanliGV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliGV.cs",
+              "RelativeToolTip": "QLSV\\quanliGV.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAA8wKQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:50:46.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "suadiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suadiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\suadiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suadiem.cs [Design]",
+              "RelativeToolTip": "QLSV\\suadiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:43:00.642Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quanliSV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliSV.cs",
+              "RelativeDocumentMoniker": "QLSV\\quanliSV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliSV.cs [Design]",
+              "RelativeToolTip": "QLSV\\quanliSV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:15:22.317Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "quanliSV.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliSV.cs",
+              "RelativeDocumentMoniker": "QLSV\\quanliSV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\quanliSV.cs",
+              "RelativeToolTip": "QLSV\\quanliSV.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAIwCgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:29:54.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lopvakhoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\lopvakhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\lopvakhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\lopvakhoa.cs [Design]",
+              "RelativeToolTip": "QLSV\\lopvakhoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:08:43.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Model1.edmx",
+              "RelativeDocumentMoniker": "QLSV\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "QLSV\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-16T14:21:38.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "hocphan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.cs",
+              "RelativeDocumentMoniker": "QLSV\\hocphan.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.cs [Design]",
+              "RelativeToolTip": "QLSV\\hocphan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:33:34.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "lopvakhoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\lopvakhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\lopvakhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\lopvakhoa.cs",
+              "RelativeToolTip": "QLSV\\lopvakhoa.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwEEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:37:54.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "hocphan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.cs",
+              "RelativeDocumentMoniker": "QLSV\\hocphan.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.cs",
+              "RelativeToolTip": "QLSV\\hocphan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:38:35.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form1.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form1.cs [Design]",
+              "RelativeToolTip": "QLSV\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T02:21:20.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "doimk.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\doimk.cs",
+              "RelativeDocumentMoniker": "QLSV\\doimk.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\doimk.cs",
+              "RelativeToolTip": "QLSV\\doimk.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:23:28.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "qmk.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\qmk.cs",
+              "RelativeDocumentMoniker": "QLSV\\qmk.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\qmk.cs",
+              "RelativeToolTip": "QLSV\\qmk.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T16:29:15.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "themdiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\themdiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.cs [Design]",
+              "RelativeToolTip": "QLSV\\themdiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T05:54:56.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "themsv.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themsv.cs",
+              "RelativeDocumentMoniker": "QLSV\\themsv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themsv.cs [Design]",
+              "RelativeToolTip": "QLSV\\themsv.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:23:57.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "diemSV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\diemSV.cs",
+              "RelativeDocumentMoniker": "QLSV\\diemSV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\diemSV.cs [Design]",
+              "RelativeToolTip": "QLSV\\diemSV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T08:08:07.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "themkhoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themkhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\themkhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themkhoa.cs [Design]",
+              "RelativeToolTip": "QLSV\\themkhoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T01:57:41.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "themlop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.cs",
+              "RelativeDocumentMoniker": "QLSV\\themlop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.cs [Design]",
+              "RelativeToolTip": "QLSV\\themlop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:29:27.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "sualop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.cs",
+              "RelativeDocumentMoniker": "QLSV\\sualop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.cs [Design]",
+              "RelativeToolTip": "QLSV\\sualop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:29:39.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "suakhoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suakhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\suakhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suakhoa.cs [Design]",
+              "RelativeToolTip": "QLSV\\suakhoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:31:24.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "chitietlop.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietlop.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietlop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietlop.cs",
+              "RelativeToolTip": "QLSV\\chitietlop.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T07:02:23.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "edit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.cs",
+              "RelativeDocumentMoniker": "QLSV\\edit.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.cs [Design]",
+              "RelativeToolTip": "QLSV\\edit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:56:24.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "edit.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.cs",
+              "RelativeDocumentMoniker": "QLSV\\edit.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.cs",
+              "RelativeToolTip": "QLSV\\edit.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAADwv3QAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:33:08.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "themgv.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themgv.cs",
+              "RelativeDocumentMoniker": "QLSV\\themgv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themgv.cs",
+              "RelativeToolTip": "QLSV\\themgv.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAvwF8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T08:54:36.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "themgv.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themgv.cs",
+              "RelativeDocumentMoniker": "QLSV\\themgv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themgv.cs [Design]",
+              "RelativeToolTip": "QLSV\\themgv.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:31:14.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "suahp.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.cs",
+              "RelativeDocumentMoniker": "QLSV\\suahp.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.cs",
+              "RelativeToolTip": "QLSV\\suahp.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAqwFMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:33:29.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "themhp.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themhp.cs",
+              "RelativeDocumentMoniker": "QLSV\\themhp.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themhp.cs",
+              "RelativeToolTip": "QLSV\\themhp.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAD4vzIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:06:58.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "themsv.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themsv.cs",
+              "RelativeDocumentMoniker": "QLSV\\themsv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themsv.cs",
+              "RelativeToolTip": "QLSV\\themsv.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAWwI0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:51:11.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "suakhoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suakhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\suakhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suakhoa.cs",
+              "RelativeToolTip": "QLSV\\suakhoa.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAEwDcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:27:48.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "hocphan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\hocphan.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.Designer.cs",
+              "RelativeToolTip": "QLSV\\hocphan.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:31:30.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "diemSV.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\diemSV.cs",
+              "RelativeDocumentMoniker": "QLSV\\diemSV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\diemSV.cs",
+              "RelativeToolTip": "QLSV\\diemSV.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAA6wC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:23:34.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "chitietkhoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietkhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietkhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietkhoa.cs",
+              "RelativeToolTip": "QLSV\\chitietkhoa.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:44:35.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "themlop.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.cs",
+              "RelativeDocumentMoniker": "QLSV\\themlop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.cs",
+              "RelativeToolTip": "QLSV\\themlop.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAkwEAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T16:20:48.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "suahp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.cs",
+              "RelativeDocumentMoniker": "QLSV\\suahp.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.cs [Design]",
+              "RelativeToolTip": "QLSV\\suahp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:39:26.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "suahp.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\suahp.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suahp.Designer.cs",
+              "RelativeToolTip": "QLSV\\suahp.Designer.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAD4vzoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:49:43.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form2.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form2.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form2.cs [Design]",
+              "RelativeToolTip": "QLSV\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:42:29.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form3.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.cs [Design]",
+              "RelativeToolTip": "QLSV\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:54:15.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "sualop.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.cs",
+              "RelativeDocumentMoniker": "QLSV\\sualop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.cs",
+              "RelativeToolTip": "QLSV\\sualop.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAvwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:17:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProfileGV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\ProfileGV.cs",
+              "RelativeDocumentMoniker": "QLSV\\ProfileGV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\ProfileGV.cs [Design]",
+              "RelativeToolTip": "QLSV\\ProfileGV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T07:42:43.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "suagv.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.cs",
+              "RelativeDocumentMoniker": "QLSV\\suagv.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.cs [Design]",
+              "RelativeToolTip": "QLSV\\suagv.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:55:39.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "taichinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\taichinh.cs",
+              "RelativeDocumentMoniker": "QLSV\\taichinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\taichinh.cs [Design]",
+              "RelativeToolTip": "QLSV\\taichinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:17:23.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "themkhoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themkhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\themkhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themkhoa.cs",
+              "RelativeToolTip": "QLSV\\themkhoa.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAvwCoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:18:28.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form2.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form2.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form2.cs",
+              "RelativeToolTip": "QLSV\\Form2.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAswJUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:47:16.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "chitietdiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietdiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietdiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietdiem.cs [Design]",
+              "RelativeToolTip": "QLSV\\chitietdiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:57:08.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "chitietkhoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietkhoa.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietkhoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietkhoa.cs [Design]",
+              "RelativeToolTip": "QLSV\\chitietkhoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:49:08.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Profile.cs",
+              "RelativeDocumentMoniker": "QLSV\\Profile.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Profile.cs",
+              "RelativeToolTip": "QLSV\\Profile.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAUwFQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:07:15.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ProfileGV.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\ProfileGV.cs",
+              "RelativeDocumentMoniker": "QLSV\\ProfileGV.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\ProfileGV.cs",
+              "RelativeToolTip": "QLSV\\ProfileGV.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAywEoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T07:55:58.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "thongtindiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\thongtindiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\thongtindiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\thongtindiem.cs [Design]",
+              "RelativeToolTip": "QLSV\\thongtindiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T16:23:35.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "thongtindiem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\thongtindiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\thongtindiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\thongtindiem.cs",
+              "RelativeToolTip": "QLSV\\thongtindiem.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T16:42:55.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Profile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Profile.cs",
+              "RelativeDocumentMoniker": "QLSV\\Profile.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Profile.cs [Design]",
+              "RelativeToolTip": "QLSV\\Profile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T08:36:05.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "qmk.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\qmk.cs",
+              "RelativeDocumentMoniker": "QLSV\\qmk.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\qmk.cs [Design]",
+              "RelativeToolTip": "QLSV\\qmk.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:22:13.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "taichinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\taichinh.cs",
+              "RelativeDocumentMoniker": "QLSV\\taichinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\taichinh.cs",
+              "RelativeToolTip": "QLSV\\taichinh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T17:37:55.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "chitietdiem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietdiem.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietdiem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietdiem.cs",
+              "RelativeToolTip": "QLSV\\chitietdiem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:00:12.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "chitietlop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietlop.cs",
+              "RelativeDocumentMoniker": "QLSV\\chitietlop.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\chitietlop.cs [Design]",
+              "RelativeToolTip": "QLSV\\chitietlop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:55:29.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Login.cs",
+              "RelativeDocumentMoniker": "QLSV\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Login.cs [Design]",
+              "RelativeToolTip": "QLSV\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:10:04.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "hocphan.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.resx",
+              "RelativeDocumentMoniker": "QLSV\\hocphan.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hocphan.resx",
+              "RelativeToolTip": "QLSV\\hocphan.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-07T08:31:43.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Login.cs",
+              "RelativeDocumentMoniker": "QLSV\\Login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Login.cs",
+              "RelativeToolTip": "QLSV\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:26:48.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\App.config",
+              "RelativeDocumentMoniker": "QLSV\\App.config",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\App.config",
+              "RelativeToolTip": "QLSV\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-15T16:14:21.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Form3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\Form3.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.Designer.cs",
+              "RelativeToolTip": "QLSV\\Form3.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T11:08:14.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "doimk.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\doimk.cs",
+              "RelativeDocumentMoniker": "QLSV\\doimk.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\doimk.cs [Design]",
+              "RelativeToolTip": "QLSV\\doimk.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:20:19.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "QLSV\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Model1.Context.tt",
+              "RelativeToolTip": "QLSV\\Model1.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-07T03:33:10.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Form3.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.resx",
+              "RelativeDocumentMoniker": "QLSV\\Form3.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Form3.resx",
+              "RelativeToolTip": "QLSV\\Form3.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-24T15:40:15.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "themdiem.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\themdiem.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themdiem.Designer.cs",
+              "RelativeToolTip": "QLSV\\themdiem.Designer.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwGkAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:28:29.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Program.cs",
+              "RelativeDocumentMoniker": "QLSV\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Program.cs",
+              "RelativeToolTip": "QLSV\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:50:09.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "hoc_phan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hoc_phan.cs",
+              "RelativeDocumentMoniker": "QLSV\\hoc_phan.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\hoc_phan.cs",
+              "RelativeToolTip": "QLSV\\hoc_phan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:07:18.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Du_AnDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet.xsd",
+              "RelativeDocumentMoniker": "QLSV\\Du_AnDataSet.xsd",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet.xsd",
+              "RelativeToolTip": "QLSV\\Du_AnDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-04-24T10:11:13.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Du_AnDataSet4.xsd",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet4.xsd",
+              "RelativeDocumentMoniker": "QLSV\\Du_AnDataSet4.xsd",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet4.xsd",
+              "RelativeToolTip": "QLSV\\Du_AnDataSet4.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-04-18T17:03:16.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Du_AnDataSet7.xsd",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet7.xsd",
+              "RelativeDocumentMoniker": "QLSV\\Du_AnDataSet7.xsd",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\Du_AnDataSet7.xsd",
+              "RelativeToolTip": "QLSV\\Du_AnDataSet7.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-04-21T17:06:49.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "sualop.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\sualop.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\sualop.Designer.cs",
+              "RelativeToolTip": "QLSV\\sualop.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:47:14.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "themlop.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\themlop.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.Designer.cs",
+              "RelativeToolTip": "QLSV\\themlop.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T04:11:48.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "themlop.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.resx",
+              "RelativeDocumentMoniker": "QLSV\\themlop.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\themlop.resx",
+              "RelativeToolTip": "QLSV\\themlop.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-19T04:11:47.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "edit.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\edit.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\edit.Designer.cs",
+              "RelativeToolTip": "QLSV\\edit.Designer.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAIwBwBAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:13:00.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "suagv.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.Designer.cs",
+              "RelativeDocumentMoniker": "QLSV\\suagv.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebApplication1\\QLSV\\QLSV\\suagv.Designer.cs",
+              "RelativeToolTip": "QLSV\\suagv.Designer.cs",
+              "ViewState": "AQIAAB8BAAAAAAAAAAAhwDUBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:40:44.6Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

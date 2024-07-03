@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Du_AnModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="diem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="masv" Type="nchar" MaxLength="10" />
+    <Property Name="tensv" Type="nvarchar(max)" />
+    <Property Name="monhoc" Type="nvarchar(max)" />
+    <Property Name="lop" Type="nvarchar(max)" />
+    <Property Name="diem1" Type="float" />
+    <Property Name="diem2" Type="float" />
+    <Property Name="diem3" Type="float" />
+    <Property Name="diemtb" Type="float" />
+    <Property Name="ketqua" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="giangvien">
+    <Key>
+      <PropertyRef Name="magv" />
+    </Key>
+    <Property Name="anh" Type="image" />
+    <Property Name="magv" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tengv" Type="nvarchar" MaxLength="50" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaysinh" Type="date" />
+    <Property Name="tenkhoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="monday" Type="nvarchar" MaxLength="50" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="matkhau" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="hoc_phan">
+    <Key>
+      <PropertyRef Name="mahp" />
+    </Key>
+    <Property Name="mahp" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tenhp" Type="nvarchar" MaxLength="50" />
+    <Property Name="namhoc" Type="nchar" MaxLength="10" />
+    <Property Name="sotinchi" Type="int" />
+  </EntityType>
+  <EntityType Name="hocphi">
+    <Key>
+      <PropertyRef Name="mathu" />
+    </Key>
+    <Property Name="mathu" Type="int" Nullable="false" />
+    <Property Name="kyhoc" Type="nvarchar" MaxLength="50" />
+    <Property Name="hocphi" Type="int" />
+  </EntityType>
+  <EntityType Name="khoa">
+    <Key>
+      <PropertyRef Name="makhoa" />
+    </Key>
+    <Property Name="makhoa" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tenkhoa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="lop">
+    <Key>
+      <PropertyRef Name="malop" />
+    </Key>
+    <Property Name="malop" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="tenlop" Type="nvarchar(max)" />
+    <Property Name="tenkhoa" Type="nvarchar(max)" />
+    <Property Name="khoahoc" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="anh" Type="image" />
+    <Property Name="masv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tensv" Type="nvarchar" MaxLength="50" />
+    <Property Name="gioitinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaysinh" Type="date" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="50" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="tenlop" Type="nvarchar" MaxLength="50" />
+    <Property Name="tenkhoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="matkhau" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="Du_AnModelStoreContainer">
+    <EntitySet Name="diem" EntityType="Self.diem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="giangvien" EntityType="Self.giangvien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hoc_phan" EntityType="Self.hoc_phan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hocphi" EntityType="Self.hocphi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="khoa" EntityType="Self.khoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lop" EntityType="Self.lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sinhvien" EntityType="Self.sinhvien" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
